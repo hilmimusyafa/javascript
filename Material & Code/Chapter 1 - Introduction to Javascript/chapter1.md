@@ -6,10 +6,10 @@ JavaScript is a high-level programming language that makes websites more interac
 
 Originally used in the browser, now JavaScript can be used outside the browser with Node.js. As a scripting language, its code does not need to be compiled and translated by an interpreter, making it possible to write programs with minimal code. For example, just one line of code can display "Hello, World!" on screen.
 
-```
+```javascript
 console.log("Hello World");
 ```
-or open code 1.1-helloworld.js
+or open code [1.1-helloworld.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%201%20-%20Introduction%20to%20Javascript/1.1-Helloworld.js)
 
 ### 1.2 History of Javascript
 

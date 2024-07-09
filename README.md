@@ -35,15 +35,15 @@ To get started with this branch, follow these steps:
     cd your-repository
     ```
 
-<!-- 2. **Set Up Node.js Environment**:
-    Ensure your Node.js environment is set up correctly by installing Node.js and npm. -->
+2. **Set Up Node.js Environment**:
+    Ensure your Node.js environment is set up correctly by installing Node.js and npm.
 
-2. **Run the Code**
-<!--     Navigate to the respective project or assignment directory and run the JavaScript code using the `node` command. For example:
+3. **Run the Code**
+    Navigate to the respective project or assignment directory and run the JavaScript code using the `node` command. For example:
     ```bash
-    cd week1/hello-world
-    node main.js
-    ``` -->
+    cd "Material & Code/Chapter 1 - Introduction to Javascript"
+    node 1.1-Helloworld.js
+    ```
 
 ## Contributing
 
