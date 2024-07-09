@@ -13,7 +13,10 @@ This branch contains JavaScript code developed for the Introduction to Javascrip
 
 ## Contents
 
-This repository includes various code examples, assignments, and projects that based by chapater
+This repository includes various code examples, assignments, and projects that based by chapter : 
+
+- Chapter 1 : Introduction to Javascript ([MD](https://hackmd.io/-aPr7PqpRCSp1CvGpTVmJQ), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%201%20-%20Introduction%20to%20Javascript))
+- Chapter 2 : Javascript Fundamental ([MD](https://hackmd.io/-aPr7PqpRCSp1CvGpTVmJQ), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental))
 
 ## Prerequisites
 
