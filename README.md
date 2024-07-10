@@ -22,7 +22,7 @@ This repository includes various code examples, assignments, and projects that b
 
 Before working with the code in this branch, ensure you have the following installed on your system:
 
-<!-- - [Node.js](https://nodejs.org/) (latest LTS version recommended) -->
+- [Node.js](https://nodejs.org/) (latest LTS version recommended)
 - A text editor or Integrated Development Environment (IDE) like VSCode, WebStorm, or Sublime Text.
 
 ## Getting Started
