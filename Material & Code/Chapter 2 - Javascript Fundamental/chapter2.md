@@ -703,7 +703,7 @@ Output :
 Name is still empty
 ```
 
-You can explore more about Logical Operator in [2.6.2-Truthy&falsy.js]()
+You can explore more about Logical Operator in [2.6.2-Truthy&falsy.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.6.2-Truty%26falsy.js)
 
 ### 2.7 Switch Case Statement
 
@@ -749,6 +749,3 @@ Output :
 Bonjour!
 ```
 You can explore more aboutSwitch Case Statement in [2.7-Switchcasestatement.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.7-Switchcasestatement.js)
-
-
-
