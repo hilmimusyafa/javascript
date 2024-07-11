@@ -363,7 +363,7 @@ Output :
 boolean
 boolean
 ```
-We can also use comparison operators such as more than (>) or less than (<). For example : 
+We can also use comparison operators such as more than (>) or less than (<). For example in code : 
 ```javascript
 const a = 10;
 const b = 12;
@@ -400,3 +400,352 @@ null
 ```
 
 You can explore more about String variable in [2.4.6-Nulldatatype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.4.6-Nulldatatype.js)
+
+#### 2.4.7 Symbol 
+
+Symbols are a new data type introduced in ES6. The Symbol data type is used to indicate a unique identifier. When creating a symbol, we can give a description or name of the symbol like this : 
+
+```javascript
+const id = Symbol("id");
+
+console.log(id);
+```
+Output : 
+```
+Symbol(id)
+```
+
+Symbols are called unique identifiers because even if we create two symbol variables with the same name or description, the two values are still considered different. For example, see the following code : 
+```javascript
+const id1 = Symbol("id");
+const id2 = Symbol("id");
+
+console.log(id1 == id2);
+```
+Output : 
+```
+false
+```
+You can explore more about String variable in [2.4.7-Symboldatatype.js]()
+
+### 2.5 Operator
+
+Operators in programming languages themselves are symbols that tell the interpreter to perform operations such as mathematics, relational, or logic to produce certain results.
+
+#### 2.5.1 Assignment Operator
+
+This operator is used to assign values to variables. Basically this operator is an equal sign (=), where this sign is used to initialize the value of a variable. Place the variable you want to assign a value to on the left, while the value is on the right. Between the two there is the assignment operator.
+```javascript
+x = y;
+```
+
+The expression above means that we initialize the y value in the variable x, so that the x value now has the same value as y.
+
+There are several additional assignment operators for initializing values in variables. We can call it a shortcut in determining values. For example:
+```javascript
+let x = 10;
+let y = 5
+
+x += y;
+
+console.log(x);
+```
+Output : 
+```
+15
+```
+So, the meaning of x+=y is x = x + y, this case is usually found in looping functions in programming, also to shorten lines of code.
+```javascript
+let x = 10;
+let y = 5;
+ 
+x += y; // mean -> x = x + y;
+x -= y; // mean -> x = x - y;
+x *= y; // mean -> x = x * y;
+x /= y; // mean -> x = x / y;
+x %= y; // mean -> x = x % y;
+```
+
+You can explore more about Assignment Opeartor in [2.5.1-Assignmentoperator.js]()
+
+#### 2.5.2 Comparison Operator
+
+This is simple comparation of 2 in JavaScript for evaluate and compare two values. The following is a list of operators and their functions : 
+
+| Operator | Function                                                                                           | True Example      | False Example      |
+| -------- | -------------------------------------------------------------------------------------------------- | ----------------- | ------------------ |
+| ==       | Compares the two values, but ignores the data type.                                                | 5 == 5? True      | 5 == 4? False      |
+| !=       | Comparing two values must be unequal, but ignores data type.                                       | 5 != 4? True      | 5 != 5? False      |
+| ===      | Compares the two values along with data types.                                                     | "5" === "5"? True | "5" === 5? False   | 
+| !==	   | Comparing the two values and their data types must not be the same.                                | "5" !== 4? True   | "5" !== "5"? False |
+| >        | Compares two values whether the first value is more than the second value.                         | 5 > 2? True       | 5 > 5? False       |
+| >=       | Compares two values to see whether the first value is greater than or equal to the second value.   | 5 >= 5? True      | 5 >= 6? False      |
+| <        | Compares two values whether the first value is less than the second value.                         | 5 < 6? True       | 6 < 5? False       |
+| <=       | Compares two values whether the first value is less or equal to the second value.                  | 5 <= 5? True      | 6 <= 5 ? True      |
+
+Example in code : 
+```javascript
+let a = 10;
+let b = 5;
+let c = "10";
+
+console.log(a == b); //10 == 5? False
+console.log(a != b); //10 != 5? True
+console.log(a === c); //10 === "10"? False
+console.log(a !== b); //10 !== "10"? True
+console.log(a > b); // 10 > 5? True
+console.log(b >= b); // 5 => 5? True
+console.log(a < b); // 10 < 5? False
+console.log(a <= a); // 10 <= 10? True
+```
+Output : 
+```
+false
+true 
+false
+true
+true
+true
+false
+true
+```
+
+***Difference between “Same” and “Identical”***
+When it comes to comparison operators in JavaScript, the thing that gets a little tricky is differentiating between “same” (==) and “identical” (===).
+
+We already know that every value must have a data type, be it number, string or boolean. For example, the string “10” and the number 10 are similar, but they are not exactly the same.
+
+This is what differentiates between same and identical in JavaScript. If we want to compare only based on the similarity of the values ​​we can use (==) but if we want to compare by paying attention to the data type we use (===).
+
+Examples are as follows : 
+```javascript
+const aString = '10';
+const aNumber = 10
+
+console.log(aString == aNumber) // true, because the values ​​are both 10
+console.log(aString === aNumber) // false, because even though the value is the same, the data type is different
+```
+Output : 
+```
+true
+false
+```
+You can explore more about Comparison Operator in [2.5.2-Comparisonoperator.js]()
+
+#### 2.5.3 Logical Operator
+
+There are several other operators that we can use to define more complex logic, namely logical operators. With logical operators, we can use a combination of two or even more boolean values in specifying logic.
+
+In JavaScript there are three special characters that function as logical operators. The following are various logical operators and their functions : 
+
+| Operator | Description                                                                                            |
+| -------- | ------------------------------------------------------------------------------------------------------ |
+| &&       | Operator and (and). The logic will produce a true value if all conditions are met (value true).        |
+| \|\|     | Operator or (or). The logic will produce a true value if one of the conditions is met (values true).   |
+| !        | Operator no (not). Used to reverse a condition.                                                        |
+
+Example in code : 
+```javascript
+let a = 10;
+let b = 12;
+
+/* AND operator */
+console.log(a < 15 && b > 10); // (true && true) -> true
+console.log(a > 15 && b > 10); // (false && true) -> false
+
+/* OR operator */
+console.log(a < 15 || b > 10); // (true || true) -> true
+console.log(a > 15 || b > 10); // (false || true) -> true
+
+/* NOT operator */
+console.log(!(a < 15)); // !(true) -> false
+console.log(!(a < 15 && b > 10)); // !(true && true) -> !(true) -> false
+```
+Output : 
+```
+true
+false
+true
+true
+false
+false
+```
+Maybe some of us are asking, what is the actual use of boolean values other than just displaying true and false values? In the discussion of data types, it has been mentioned that Boolean is one of the keys to programming logic, because Boolean can control how our program flow will run.
+
+So how do Booleans control program flow? In the next material, we will discuss if/else statements which can control the flow of the program, of course using boolean statements is very useful.
+
+You can explore more about Logical Operator in [2.5.3-Logicaloperator.js]()
+
+### 2.6 If/Else Statement
+
+#### 2.6.1 Knowing If/Else Statement
+When developing a program, we will encounter branching paths depending on the conditions that occur. To accommodate and check a condition in JavaScript, we use the if keyword.
+
+The if statement will test a condition. If the condition evaluates to true, then the code block within it will be executed. Conversely, if it is false, then the specified process will be skipped.
+
+![Untitled Diagram.drawio](https://hackmd.io/_uploads/rktX_rTPA.png)
+
+If the above Flowchart is translated into code, it will look like this:
+```javascript
+let isRaining = false;
+
+console.log("Is it necessary to bring an umbrella?")
+if (isRaining == true) {
+    console.log("It's raining outside, use the Umbrella");
+} else {
+    console.log("It's not raining outside, no need to bring an umbrella")
+}
+```
+Output : 
+```
+Is it necessary to bring an umbrella?
+It's raining outside, use the Umbrella
+```
+but if the value isRaining is changed to false then the results will change according to the logic. You can also use comparison operators in this if/else : 
+```javascript
+let x = 50;
+
+if (x > 70) {
+    console.log(x);
+} else {
+    console.log("Score less than 70");
+}
+```
+Output : 
+```
+Score less than 70
+```
+the code will follow the value, if the value is more than 70 then the appropriate value will appear.
+
+In this if/else, if there are 2 more conditions, you can add them with the "else if" option according to the appropriate conditions : 
+```javascript
+let language = "French";
+let greeting = "Selamat Pagi"
+
+if(language === "English") {
+    greeting = "Good Morning!";
+} else if(language === "French") {
+    greeting = "Bonjour!"
+} else if(language === "Japanese") {
+    greeting = "Ohayou Gozaimasu!"
+}
+
+console.log(greeting);
+```
+Output : 
+```
+Bonjour!
+```
+Apart from the if statement above, JavaScript also supports ternary operators or conditional expressions. With this, we can write if-else statements in just one line.
+```javascript
+const isMember = false;
+const discount = isMember ? 0.1 : 0;
+console.log(`Anda mendapatkan diskon sebesar ${discount * 100}%`)
+```
+Output : 
+```
+Anda mendapatkan diskon sebesar 0%
+```
+> *Operator ? in JavaScript it is a ternary operator which is used as a short form of the if...else statement. This operator requires three operands: condition, result if condition is true, and result if condition is false. The syntax is : *
+>
+> *condition ? expressionIfTrue : expressionIfFalse*
+
+In if/else logic also can use logical operator like and(&&), or(||), and not (!). Example : 
+```javascript
+let language = "Japanese";
+let time = "Morning";
+let greeting = "Selamat Pagi"
+
+if(language === "English" && time == "Morning") {
+    greeting = "Good Morning!";
+} else if(language === "French" && time == "Morning") {
+    greeting = "Bonjour!"
+} else if(language === "Japanese" && time == "Morning") {
+    greeting = "Ohayou Gozaimasu!"
+} else {
+    greeting = "Hola"
+}
+
+console.log(greeting);
+```
+Output : 
+```
+Ohayou Gozaimasu
+```
+
+You can explore more about Logical Operator in [2.6.1-Basicifelsestatement.js]()
+
+#### 2.6.2 Truthy & Falsy
+
+In the if statement we need to enter the expression that will be evaluated. Generally, the expression returns a boolean value to determine whether the condition is true or false. So what if we write an expression that does not return a boolean value? The answer is yes.
+
+Every value in JavaScript basically also inherits boolean properties. This value is known as truthy or false. A truthy value means a value that, when evaluated, produces a true value, and a false value also means false. So which is truthy and falsy? Apart from the false boolean value, data types or values that are considered false include
+
+- Number 0
+- BigInt 0n
+- Empty strings like “” or ‘’
+- null
+- undefined
+- NaN, or Not a Number
+
+Example : 
+```javascript
+let name = "";
+
+if (name) {
+    console.log(`Halo, ${name}`);
+} else {
+    console.log("Name is still empty");
+}
+```
+Output : 
+```
+Name is still empty
+```
+
+You can explore more about Logical Operator in [2.6.2-Truthy&falsy.js]()
+
+### 2.7 Switch Case Statement
+
+Switch Case Statement is like if/else, JavaScript also supports switch statements to check many conditions more easily and concisely. See this logic :
+```javascript
+switch (expression) {
+  case value1:
+    // do something
+    break;
+  case value2:
+    // do something
+    break;
+  ...
+  ...
+  default:
+    // do something else
+}
+```
+
+The brackets after the "switch" keyword contain the variable or expression that will be evaluated. Then for each condition that may occur, we enter the keyword "case" followed by a valid value. If the condition in the case is the same as the variable in the switch, then the code block after the colon (:) will be executed. The "break" keyword is used to exit the switch process. There is one case called default which has the same function as the else keyword in if-else control flow. If there is no equal value to the variable on the switch, then this block of code will be executed. Like this example : 
+```javascript
+let language = "French";
+let greeting = null;
+
+switch (language) {
+  case "English":
+    greeting = "Good Morning!";
+    break;
+  case "French":
+    greeting = "Bonjour!";
+    break;
+  case "Japanese":
+    greeting = "Ohayou Gozaimasu!";
+    break;
+  default:
+    greeting = "Selamat Pagi!";
+}
+
+console.log(greeting);
+```
+Output : 
+```
+Bonjour!
+```
+You can explore more aboutSwitch Case Statement in [2.7-Switchcasestatement.js]()
