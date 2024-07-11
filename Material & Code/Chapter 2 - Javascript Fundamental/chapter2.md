@@ -426,7 +426,7 @@ Output :
 ```
 false
 ```
-You can explore more about String variable in [2.4.7-Symboldatatype.js]()
+You can explore more about String variable in [2.4.7-Symboldatatype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.4.7-Symboldatatype.js)
 
 ### 2.5 Operator
 
@@ -466,7 +466,7 @@ x /= y; // mean -> x = x / y;
 x %= y; // mean -> x = x % y;
 ```
 
-You can explore more about Assignment Opeartor in [2.5.1-Assignmentoperator.js]()
+You can explore more about Assignment Opeartor in [2.5.1-Assignmentoperator.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.5.1-Assignmentoperator.js)
 
 #### 2.5.2 Comparison Operator
 
@@ -530,7 +530,7 @@ Output :
 true
 false
 ```
-You can explore more about Comparison Operator in [2.5.2-Comparisonoperator.js]()
+You can explore more about Comparison Operator in [2.5.2-Comparisonoperator.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.5.2-Comparisonoperator.js)
 
 #### 2.5.3 Logical Operator
 
@@ -574,7 +574,7 @@ Maybe some of us are asking, what is the actual use of boolean values other than
 
 So how do Booleans control program flow? In the next material, we will discuss if/else statements which can control the flow of the program, of course using boolean statements is very useful.
 
-You can explore more about Logical Operator in [2.5.3-Logicaloperator.js]()
+You can explore more about Logical Operator in [2.5.3-Logicaloperator.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.5.3-Logicaloperator.js)
 
 ### 2.6 If/Else Statement
 
@@ -673,7 +673,7 @@ Output :
 Ohayou Gozaimasu
 ```
 
-You can explore more about Logical Operator in [2.6.1-Basicifelsestatement.js]()
+You can explore more about Logical Operator in [2.6.1-Basicifelsestatement.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.6-Ifelsestatement.js)
 
 #### 2.6.2 Truthy & Falsy
 
@@ -748,4 +748,7 @@ Output :
 ```
 Bonjour!
 ```
-You can explore more aboutSwitch Case Statement in [2.7-Switchcasestatement.js]()
+You can explore more aboutSwitch Case Statement in [2.7-Switchcasestatement.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.7-Switchcasestatement.js)
+
+
+
