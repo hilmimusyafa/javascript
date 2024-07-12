@@ -1,4 +1,4 @@
-# 256 - Introduction to Javascript - Dicoding
+# 256 - Introduction to JavaScript - Dicoding
 
 ## Description
 
@@ -15,8 +15,8 @@ This branch contains JavaScript code developed for the Introduction to Javascrip
 
 This repository includes various code examples, assignments, and projects that based by chapter : 
 
-- Chapter 1 : Introduction to Javascript ([MD](https://hackmd.io/-aPr7PqpRCSp1CvGpTVmJQ), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%201%20-%20Introduction%20to%20Javascript))
-- Chapter 2 : Javascript Fundamental ([MD](https://hackmd.io/-aPr7PqpRCSp1CvGpTVmJQ), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental))
+- Chapter 1 : Introduction to JavaScript ([MD](https://hackmd.io/-aPr7PqpRCSp1CvGpTVmJQ), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%201%20-%20Introduction%20to%20Javascript))
+- Chapter 2 : JavaScript Fundamental ([MD](https://hackmd.io/-aPr7PqpRCSp1CvGpTVmJQ), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental))
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ To get started with this branch, follow these steps:
 3. **Run the Code**
     Navigate to the respective project or assignment directory and run the JavaScript code using the `node` command. For example:
     ```bash
-    cd "Material & Code/Chapter 1 - Introduction to Javascript"
+    cd "Material & Code/Chapter 1 - Introduction to JavaScript"
     node 1.1-Helloworld.js
     ```
 
