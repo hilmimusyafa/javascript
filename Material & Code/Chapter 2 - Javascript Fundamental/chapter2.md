@@ -749,3 +749,213 @@ Output :
 Bonjour!
 ```
 You can explore more aboutSwitch Case Statement in [2.7-Switchcasestatement.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.7-Switchcasestatement.js)
+
+### 2.8 Loop
+
+When we write the code, what if we want to try to write the code to output 1-5, of course it's easy, right? But what happens if it's 1 to 10 thousand? 100 thousand? 1 million? Of course it will take a long time, that's why there is a loop function in programming.
+
+#### 2.8.1 For Loop
+
+For loop is a simple repetition that is often used if you know how many times to repeat, for example I want to repeat three times, so I take the numbers 0 - 2 or 1 - 3.
+> *In computer logic, 0 is a logical number with no positive or negative information. So if there is 0 - 2 then there are 3 numbers (0, 1, and 2).*
+Here the basic explanation : 
+```javascript
+for(initialize variable; test condition; change variable value) {
+ // do something
+}
+```
+And this is the example code : 
+```javascript
+for(let i = 0; i < 5; i++) {
+    console.log(i);
+}
+```
+Output : 
+```
+0
+1
+2
+3
+4
+```
+There are three main parts to the for syntax above:
+
+- First, variable i as the iteration index. In this variable we initialize the initial value of the loop.
+- Second, comparison operations. In this section, JavaScript will check the condition whether the loop still needs to be done. If it is true, the code in the for block will be executed.
+- Third, increment/decrement. Here we perform an iterative addition or subtraction of variables. So, in the example above, variable i will be increased by 1 at the end of each loop. Changing this value is important because if we change the value, the loop process can continue as long as the condition is met.
+
+If interpreted, then the code above can be interpreted as "If i is less than 5, then display the value of i."
+
+For exploring about For Loop you can go to [2.8.1-Forloop.js]()
+
+#### 2.8.2 For of Loop
+
+Another way to do looping is to use for..of. For of is starting to arrive in ECMAScript 2015 (ES6). This method is much simpler and modern than the usual for loop. The basic syntax of a for of loop is like this:
+```javascript
+for(arrayItems of myArray) {
+ // do something
+}
+```
+
+With "for..of" the value of each array will be initialized in a new variable that we define in each loop process. The number of looping processes will also adjust to the size of the array. It's as simple as us doing the command “Hey JavaScript! Loop through myArray, accessing each value, and storing it in the arrayItem variable.” In the loop process we use the arrayItem variable to access each value of the myArray item. Here the example :
+```javascript
+for(const arrayItem of myArray) {
+    console.log(arrayItem)
+}
+```
+Output : 
+```
+Luke
+Han
+Chewbacca
+Leia
+```
+In essence, the basis for of is as many known quantities as possible (if the example is an array).
+
+You can explore more about For of Loop in [2.8.2-ForofLoop.js]()
+
+#### 2.8.3 While and do-while
+
+Another method for looping is with the while statement. Just like for, the while instruction is different from repeating if a condition has not been reached.
+
+This means, for example, when setting a variable that has not yet reached a value of true or has not reached a number, it will repeat until it reaches a value that is set to complete or has a value of true.
+
+Usually while do is used when a repetition has unknown limits, or limits with certain conditions. Example, to display the numbers 1 to 100 with while we can write code like the following:
+
+```javascript
+let i = 1;
+
+while (i <= 100) {
+    console.log(i);
+    i++;
+}
+```
+Output : 
+```
+1
+2
+3
+4
+...
+1000
+```
+
+Just like while do, do while has similarities only in different languages, if while do the stop condition is done first then the do command, if do while the command is treated first, then when (some people call it something like repeat until in other programming languages).
+
+```javascript
+let i = 1;
+
+do {
+    console.log(i);
+    i++;
+} while (i <= 100);
+```
+Output : 
+```
+1
+2
+3
+4
+...
+1000
+```
+
+For exploring about While do - do while you can go to [2.8.3-Whiledodowhile.js]()
+
+#### 2.8.4 Infinite loops
+
+When implementing loops in programs, there is one condition that we need to avoid, namely infinite loops. Infinite loop or endless loop is a condition where our program is stuck in a loop. It will continue to run until it causes the application and computer to crash unless there is external intervention, such as turning off the application.
+
+```javascript
+let i = 1;
+ 
+while (i <= 5) {
+    console.log(i);
+}
+```
+Output : 
+```
+
+```
+
+Because the variable i always has the value 1. As a result, the condition i <= 5 will always evaluate to true which results in the application continuing to print 1 to the console and thus crashing.
+
+For exploring about Infinite Loop you can go to [2.8.4-Infiniteloop.js]() but don't forget to terminate the program because it always run in your computer.
+
+### 2.9 Coding Quiz : Variable and Data Type
+
+To test practical skills in understanding variables and data types in JavaScript, let's complete the following quiz.
+
+```
+* TODO:
+ * Create variables firstName, lastName, age, isMarried with the following conditions:
+ * - firstName: string data type, with value "John".
+ * - lastName: string data type, with value "Doe".
+ * - age: number data type, with value 25.
+ * - isMarried: boolean data type, with value true.
+ */
+```
+Answer Code : 
+```javascript
+let firstName, lastName, age, isMarried;
+
+firstName = "John";
+lastName = "Doe";
+age = 25;
+isMarried = true;
+```
+Optional : 
+```javascript
+console.log(firstName, lastName, age, isMarried)
+```
+Output : 
+```
+John Doe 25 true
+```
+
+For source code explore in [2.9-Quizcodingvariabledataype.js]()
+
+### 2.10 Coding Quiz : Operator Logic and If Else
+
+To test practical skills in understanding operator logic and if/ else in JavaScript, let's complete the following quiz.
+
+```
+Create if logic to evaluate the score value with the following conditions:
+1. If the score is 90 or more
+ - Fill the result variable with the value: 'Congratulations! You got an A.'
+2. If the score is 80 to 89
+ - Fill the result variable with the value: 'You got a B.'
+3. If the score is 70 to 79
+ - Fill the result variable with the value: 'You got a C.'
+4. If the score is 60 to 69:
+ - Fill the result variable with the value: 'You got a D.' 
+5. If the score is below 60:
+ - Fill the result variable with the value: 'You got the value E.'
+
+Note: - Please do not delete pre-existing codes.
+      - You don't need to create result and score variables manually. Use the variables provided.
+```
+Answer Code : 
+```javascript
+function scoreChecker(score) {
+    let result;
+    
+    if(score >= 90) {
+        result = 'Congratulations! You got an A.';
+    } else if(score <= 89 && score >= 80) {
+        result = 'You got a B.';
+    } else if(score <= 79 && score >= 70) {
+        result = 'You got a C.';
+    } else if(score <= 69 && score >= 60) {
+        result = 'You got a D.';
+    } else {
+        result = 'You got a E.';
+    }
+    
+    return result;
+}
+
+module.exports = scoreChecker;
+```
+
+For source code explore in [2.10-Quizcodingifelsestatement.js]()
