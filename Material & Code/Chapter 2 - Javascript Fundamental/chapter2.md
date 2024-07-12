@@ -786,7 +786,7 @@ There are three main parts to the for syntax above:
 
 If interpreted, then the code above can be interpreted as "If i is less than 5, then display the value of i."
 
-For exploring about For Loop you can go to [2.8.1-Forloop.js]()
+For exploring about For Loop you can go to [2.8.1-Forloop.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.8.1-Forloop.js)
 
 #### 2.8.2 For of Loop
 
@@ -812,7 +812,7 @@ Leia
 ```
 In essence, the basis for of is as many known quantities as possible (if the example is an array).
 
-You can explore more about For of Loop in [2.8.2-ForofLoop.js]()
+You can explore more about For of Loop in [2.8.2-ForofLoop.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.8.2-ForofLoop.js)
 
 #### 2.8.3 While and do-while
 
@@ -860,7 +860,7 @@ Output :
 1000
 ```
 
-For exploring about While do - do while you can go to [2.8.3-Whiledodowhile.js]()
+For exploring about While do - do while you can go to [2.8.3-Whiledodowhile.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.8.3-Whiledodowhile.js)
 
 #### 2.8.4 Infinite loops
 
@@ -880,7 +880,7 @@ Output :
 
 Because the variable i always has the value 1. As a result, the condition i <= 5 will always evaluate to true which results in the application continuing to print 1 to the console and thus crashing.
 
-For exploring about Infinite Loop you can go to [2.8.4-Infiniteloop.js]() but don't forget to terminate the program because it always run in your computer.
+For exploring about Infinite Loop you can go to [2.8.4-Infiniteloop.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.8.4-Infiniteloop.js) but don't forget to terminate the program because it always run in your computer.
 
 ### 2.9 Coding Quiz : Variable and Data Type
 
@@ -913,7 +913,7 @@ Output :
 John Doe 25 true
 ```
 
-For source code explore in [2.9-Quizcodingvariabledataype.js]()
+For source code explore in [2.9-Quizcodingvariabledataype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.9-Quizcodingvariabledataype.js)
 
 ### 2.10 Coding Quiz : Operator Logic and If Else
 
@@ -958,4 +958,4 @@ function scoreChecker(score) {
 module.exports = scoreChecker;
 ```
 
-For source code explore in [2.10-Quizcodingifelsestatement.js]()
+For source code explore in [2.10-Quizcodingifelsestatement.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.10-Quizcodingifelsestatement.js)
