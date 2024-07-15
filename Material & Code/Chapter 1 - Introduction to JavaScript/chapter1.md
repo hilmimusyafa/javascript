@@ -9,7 +9,7 @@ Originally used in the browser, now JavaScript can be used outside the browser w
 ```javascript
 console.log("Hello World");
 ```
-or open code [1.1-helloworld.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%201%20-%20Introduction%20to%20Javascript/1.1-Helloworld.js)
+or open code [1.1-Helloworld.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%201%20-%20Introduction%20to%20JavaScript/1.1-Helloworld.js)
 
 ### 1.2 History of Javascript
 

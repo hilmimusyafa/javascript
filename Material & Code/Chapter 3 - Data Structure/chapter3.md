@@ -75,7 +75,7 @@ I am 19 years old
 I come from Tattooine
 ```
 
-You can explore more about Object in [3.1.1-Objectbasicexplanation.js]()
+You can explore more about Object in [3.1.1-Objectbasicexplanation.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.1.1-Objectbasicexplanation.js)
 
 #### 3.1.2 Modify Propeties Object
 
@@ -115,7 +115,7 @@ spaceship = { name: "New Millenium Falcon" }; // Error
 ```
 When we change an object using the assignment operator and the property/key already exists, the value in it will be replaced with the new value. Meanwhile, if a property with the specified key name is not found, a new property will be added to the object.
 
-You can explore more about Modify Propeties Objects in [3.1.2-Modifypropertiesobject.js]()
+You can explore more about Modify Propeties Objects in [3.1.2-Modifypropertiesobject.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.1.2-Modifypropertiesobject.js)
 
 #### 3.1.3 Delete Properties on Object
 
@@ -140,7 +140,7 @@ Output :
 { name: 'Millenium Falcon', maxSpeed: 1300, color: 'Glossy red' }
 ```
 
-You can explore more about Delete Properties Objects in [3.1.3-Deletepropertiesobject.js]()
+You can explore more about Delete Properties Objects in [3.1.3-Deletepropertiesobject.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.1.3-Deletepropertiesobject.js)
 
 ### 3.2 Array
 
@@ -190,7 +190,7 @@ undefined
 Panjang nilai myArray adalah 5.
 ```
 
-You can explore more about Array in [3.2.1-Arraybasicexplanation.js]()
+You can explore more about Array in [3.2.1-Arraybasicexplanation.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.2.1-Arraybasicexplanation.js)
 
 #### 3.2.2 Add Data to Last Index in Array
 
@@ -206,7 +206,7 @@ Output :
 ```
 [ 'Chocolate', 42.5, 22, true, 'Programming', 'JavaScript' ]
 ```
-You can explore more about Add Data to Last Index in Array in [3.2.2-Adddatatolastindexinarray.js]()
+You can explore more about Add Data to Last Index in Array in [3.2.2-Adddatatolastindexinarray.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.2.2-Adddatatolastindexinarray.js)
 
 #### 3.2.3 Remove Last Index Array Data
 
@@ -222,7 +222,7 @@ Output :
 [ Chocolate, 42.5, 22, true ]
 ```
 
-You can explore more about Remove Last Index Array Data in [3.2.3-Removelastindexrraydata.js]()
+You can explore more about Remove Last Index Array Data in [3.2.3-Removelastindexrraydata.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.2.3-Removelastindexrraydata.js)
 
 #### 3.2.4 Manipulate Array Data Using Shift & Unshift
 
@@ -240,7 +240,7 @@ Output :
 [ 'Apple', 42.5, 22, true, 'Programming' ]
 ```
 
-You can explore more about Manipulate Array Data Using Shift & Unshift in [3.2.4-Shift&unshift.js]()
+You can explore more about Manipulate Array Data Using Shift & Unshift in [3.2.4-Shift&unshift.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.2.4-Shift%26unshift.js)
 
 #### 3.2.5 Delete Data Array Based on Index 
 
@@ -281,7 +281,7 @@ before splice:  [ 'January', 'March', 'April', 'May' ]
 after splice:  [ 'January', 'February', 'March', 'April', 'May' ]
 ```
 
-You can explore more about Delete Data Array Based on Index in [3.2.5-Deletedataarraybasedonindex.js]()
+You can explore more about Delete Data Array Based on Index in [3.2.5-Deletedataarraybasedonindex.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.2.5-Deletedataarraybasedonindex.js)
 
 ### 3.3 Spread Operator
 

@@ -17,7 +17,7 @@ Hello World!
 > 
 > *"" means string data type*
 
-You can run code [2.1-Writeyourcode.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.1-Writeyourcode.JS) to learn more about the code
+You can run code [2.1-Writeyourcode.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.1-Writeyourcode.JS) to learn more about the code
 
 JavaScript divides instructions generally into two types, namely expressions and statements.
 
@@ -67,7 +67,7 @@ Output :
 Hello World!
 ```
 
-You can run code [2.2-Comments.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.2-Comments.js) to learn more about the code
+You can run code [2.2-Comments.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.2-Comments.js) to learn more about the code
 
 ### 2.3 Variable & Constant
 
@@ -104,7 +104,7 @@ Skywalker
 ```
 > *The code to initialize a value into a variable with an equal sign (=) is called an assignment expression.* 
 
-or you can run code [2.3.1-Variable.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.3.1-Variable.js) to know more about variable
+or you can run code [2.3.1-Variable.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.3.1-Variable.js) to know more about variable
 
 #### 2.3.2 Constant
 
@@ -119,7 +119,7 @@ Output :
 ```
 10
 ```
-or you can run code [2.3.2-Constant.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.3.2-Constant.js) to know more about constant
+or you can run code [2.3.2-Constant.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.3.2-Constant.js) to know more about constant
 
 ### 2.4 Data Type
 
@@ -141,7 +141,7 @@ Undefined
 
 in the variable x there is no clear content or output declaration, so it outputs undefined/
 
-You can explore more in code [2.4.1-Undefineddatatype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.4.1-Undefineddatatype.js)
+You can explore more in code [2.4.1-Undefineddatatype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.4.1-Undefineddatatype.js)
 
 #### 2.4.2 Numbers (Integer)
 
@@ -232,7 +232,7 @@ Output :
 6
 7
 ```
-You can explore more about number variable in [2.4.2-Numberdatatype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.4.2-Numberdatatype.js)
+You can explore more about number variable in [2.4.2-Numberdatatype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.4.2-Numberdatatype.js)
 
 #### 2.4.3 BigInt (Big Integer)
 
@@ -273,7 +273,7 @@ Output :
 2n
 1n
 ```
-You can explore more about BigInt variable in [2.4.3-Numberdatatype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.4.3-BigIntdatatype.js)
+You can explore more about BigInt variable in [2.4.3-Numberdatatype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.4.3-BigIntdatatype.js)
 
 #### 2.4.4 Strings
 
@@ -346,7 +346,7 @@ Output :
 Hello, my name is Luke.
 ```
 
-You can explore more about String variable in [2.4.4-Stringdatatype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.4.4-Stringdatatype.js)
+You can explore more about String variable in [2.4.4-Stringdatatype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.4.4-Stringdatatype.js)
 
 #### 2.4.5 Boolean
 
@@ -380,7 +380,7 @@ false
 true
 ```
 
-You can explore more about String variable in [2.4.5-Booleandatatype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.4.5-Booleandatatype.js)
+You can explore more about String variable in [2.4.5-Booleandatatype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.4.5-Booleandatatype.js)
 
 #### 2.4.6 Null
 
@@ -399,7 +399,7 @@ Output :
 null
 ```
 
-You can explore more about String variable in [2.4.6-Nulldatatype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.4.6-Nulldatatype.js)
+You can explore more about String variable in [2.4.6-Nulldatatype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.4.6-Nulldatatype.js)
 
 #### 2.4.7 Symbol 
 
@@ -426,7 +426,7 @@ Output :
 ```
 false
 ```
-You can explore more about String variable in [2.4.7-Symboldatatype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.4.7-Symboldatatype.js)
+You can explore more about String variable in [2.4.7-Symboldatatype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.4.7-Symboldatatype.js)
 
 ### 2.5 Operator
 
@@ -466,7 +466,7 @@ x /= y; // mean -> x = x / y;
 x %= y; // mean -> x = x % y;
 ```
 
-You can explore more about Assignment Opeartor in [2.5.1-Assignmentoperator.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.5.1-Assignmentoperator.js)
+You can explore more about Assignment Opeartor in [2.5.1-Assignmentoperator.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.5.1-Assignmentoperator.js)
 
 #### 2.5.2 Comparison Operator
 
@@ -530,7 +530,7 @@ Output :
 true
 false
 ```
-You can explore more about Comparison Operator in [2.5.2-Comparisonoperator.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.5.2-Comparisonoperator.js)
+You can explore more about Comparison Operator in [2.5.2-Comparisonoperator.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.5.2-Comparisonoperator.js)
 
 #### 2.5.3 Logical Operator
 
@@ -574,7 +574,7 @@ Maybe some of us are asking, what is the actual use of boolean values other than
 
 So how do Booleans control program flow? In the next material, we will discuss if/else statements which can control the flow of the program, of course using boolean statements is very useful.
 
-You can explore more about Logical Operator in [2.5.3-Logicaloperator.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.5.3-Logicaloperator.js)
+You can explore more about Logical Operator in [2.5.3-Logicaloperator.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.5.3-Logicaloperator.js)
 
 ### 2.6 If/Else Statement
 
@@ -673,7 +673,7 @@ Output :
 Ohayou Gozaimasu
 ```
 
-You can explore more about Logical Operator in [2.6.1-Basicifelsestatement.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.6-Ifelsestatement.js)
+You can explore more about Logical Operator in [2.6.1-Basicifelsestatement.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.6.1-Ifelsestatement.js)
 
 #### 2.6.2 Truthy & Falsy
 
@@ -703,7 +703,7 @@ Output :
 Name is still empty
 ```
 
-You can explore more about Logical Operator in [2.6.2-Truthy&falsy.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.6.2-Truty%26falsy.js)
+You can explore more about Logical Operator in [2.6.2-Truthy&falsy.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.6.2-Truty%26falsy.js)
 
 ### 2.7 Switch Case Statement
 
@@ -748,7 +748,7 @@ Output :
 ```
 Bonjour!
 ```
-You can explore more aboutSwitch Case Statement in [2.7-Switchcasestatement.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.7-Switchcasestatement.js)
+You can explore more aboutSwitch Case Statement in [2.7-Switchcasestatement.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.7-Switchcasestatement.js)
 
 ### 2.8 Loop
 
@@ -786,7 +786,7 @@ There are three main parts to the for syntax above:
 
 If interpreted, then the code above can be interpreted as "If i is less than 5, then display the value of i."
 
-For exploring about For Loop you can go to [2.8.1-Forloop.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.8.1-Forloop.js)
+For exploring about For Loop you can go to [2.8.1-Forloop.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.8.1-Forloop.js)
 
 #### 2.8.2 For of Loop
 
@@ -812,7 +812,7 @@ Leia
 ```
 In essence, the basis for of is as many known quantities as possible (if the example is an array).
 
-You can explore more about For of Loop in [2.8.2-ForofLoop.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.8.2-ForofLoop.js)
+You can explore more about For of Loop in [2.8.2-ForofLoop.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.8.2-ForofLoop.js)
 
 #### 2.8.3 While and do-while
 
@@ -860,7 +860,7 @@ Output :
 1000
 ```
 
-For exploring about While do - do while you can go to [2.8.3-Whiledodowhile.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.8.3-Whiledodowhile.js)
+For exploring about While do - do while you can go to [2.8.3-Whiledodowhile.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.8.3-Whiledodowhile.js)
 
 #### 2.8.4 Infinite loops
 
@@ -880,7 +880,7 @@ Output :
 
 Because the variable i always has the value 1. As a result, the condition i <= 5 will always evaluate to true which results in the application continuing to print 1 to the console and thus crashing.
 
-For exploring about Infinite Loop you can go to [2.8.4-Infiniteloop.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.8.4-Infiniteloop.js) but don't forget to terminate the program because it always run in your computer.
+For exploring about Infinite Loop you can go to [2.8.4-Infiniteloop.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.8.4-Infiniteloop.js) but don't forget to terminate the program because it always run in your computer.
 
 ### 2.9 Coding Quiz : Variable and Data Type
 
@@ -913,7 +913,7 @@ Output :
 John Doe 25 true
 ```
 
-For source code explore in [2.9-Quizcodingvariabledataype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.9-Quizcodingvariabledataype.js)
+For source code explore in [2.9-Quizcodingvariabledataype.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.9-Quizcodingvariabledataype.js)
 
 ### 2.10 Coding Quiz : Operator Logic and If Else
 
@@ -958,4 +958,4 @@ function scoreChecker(score) {
 module.exports = scoreChecker;
 ```
 
-For source code explore in [2.10-Quizcodingifelsestatement.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental/2.10-Quizcodingifelsestatement.js)
+For source code explore in [2.10-Quizcodingifelsestatement.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%202%20-%20JavaScript%20Fundamental/2.10-Quizcodingifelsestatement.js)
