@@ -423,13 +423,12 @@ Writing destructuring object syntax in ES6 uses an object literal "{}" on the le
 
 ```javascript
 const profile = {
-  firstName: "John",
-  lastName: "Doe",
-  age: 18
+    firstName: "John",
+    lastName: "Doe",
+    age: 18
 }
- 
+
 const { firstName, lastName, age } = profile;
- 
 console.log(firstName, lastName, age);
 ```
 Output : 
@@ -451,17 +450,17 @@ For Example about Destructuring Object & Array you can open the code in [3.5.1-D
 In the previous example, we have destructured the object in the variable declaration. However, in certain cases we may need to do this on variables that have already been declared.
 ```javascript
 const profile = {
-  firstName: "John",
-  lastName: "Doe",
-  age: 18
+    firstName: "John",
+    lastName: "Doe",
+    age: 18
 }
- 
+
 let firstName = "Dimas";
 let age = 20;
 
 // initialize new value via destructuring object
 ({ firstName, age } = profile);
- 
+
 console.log(firstName);
 console.log(age);
 ```
@@ -482,14 +481,16 @@ Well, this is the function of brackets. It will tell JavaScript that the curly m
 ({ firstName, age } = profile);
 ```
 
+For Example about Destructuring Assignment you can open the code in [3.5.2-Destructuringassignment.js]()
+
 #### 3.5.3 Default Values
 
 When we destruct an object and assign a variable with a name that is not a property of the object, the value of the variable becomes undefined. For example : 
 ```javascript
 const profile = {
-  firstName: "John",
-  lastName: "Doe",
-  age: 18
+    firstName: "John",
+    lastName: "Doe",
+    age: 18
 }
  
  
@@ -510,9 +511,9 @@ Alternatively, we can optionally define a default value on a particular property
 
 ```javascript
 const profile = {
-  firstName: "John",
-  lastName: "Doe",
-  age: 18
+    firstName: "John",
+    lastName: "Doe",
+    age: 18
 }
  
  
@@ -530,6 +531,8 @@ false
 ```
 If the property value is not found, then the default value is applied to the variable.
 
+For Example about Default Values Destructuring Object you can open the code in [3.5.3-Defaultvaluesdestructuringobject.js]()
+
 #### 3.5.4 Assigning to Different Local Variable Names
 
 Until now we know that to carry out object destructuring on local variables, we need to standardize the naming of local variables with their object properties. However, actually in the object destructuring process we can use different local variable names. ES6 provides additional syntax that allows us to do this. The writing is similar to when we create properties and their values on objects.
@@ -538,9 +541,9 @@ Examples like this :
 
 ```javascript
 const profile = {
-  firstName: "John",
-  lastName: "Doe",
-  age: 18
+    firstName: "John",
+    lastName: "Doe",
+    age: 18
 }
  
 const { firstName: localFirstName, lastName: localLastName, age: localAge } = profile;
@@ -555,7 +558,9 @@ John
 Doe
 18
 ```
-                                                           
+   
+For Example about Assigning to Different Local Variable Names you can open the code in [3.5.4-Assigningtodifferentlocalvariablenames.js]()
+
 ### 3.6 Destructuring in Array
 
 #### 3.6.1 Destructuring Array
@@ -601,6 +606,8 @@ Output :
 ```
 Nugget
 ```
+
+For Example about Destructuring Array you can open the code in [3.6.1-Destructuringarray.js]()
 
 #### 3.6.2 Destructuring Assignment
 
@@ -679,6 +686,8 @@ Value a: 2
 Value b: 1
 ```
 
+For Example about Destructuring Assignment Array you can open the code in [3.6.2-Destructuringassignmentarray.js]()
+
 #### 3.6.3 Default Values
 
 When destructuring an array, but there is a variable whose position cannot be reached by the array, then that variable will have the value undefined. For example : 
@@ -711,6 +720,8 @@ Output :
 Seafood
 Salad
 ```
+
+For Example about Default Value Destructuring Array you can open the code in [3.6.3-Defaultvaluedestructuringarray.js]()
 
 ### 3.7 Map
 
@@ -762,6 +773,7 @@ England
 4
 India
 ```
+For Example about Default Value Destructuring Array you can open the code in [3.7-Map.js]()
 
 ### 3.8 Set
 
@@ -811,6 +823,8 @@ Set(4) { 1, 6, 5, 10 }
 ```
 
 Remember that Set has no order or index, so the argument entered into the delete function is the value you want to delete, not the index.
+
+For Example about Default Value Destructuring Array you can open the code in [3.8-Set.js]()
 
 ### 3.9 WeakMap & WeakSet
 
@@ -892,3 +906,125 @@ Like WeakMap, WeakSet is a weak reference version of Set. The differences betwee
 - WeakSet is not an iterable and only has add(), has(), and delete() methods.
 - WeakSet does not have a size property
 
+For Example about Default Value Destructuring Array you can open the code in [3.9-Weakmap&weakset.js]()
+
+### 3.10 Coding Quiz : Object
+
+To test practical skills in understanding Object in JavaScript, let's complete the following quiz.
+
+To do : 
+```
+1. Create a variable with the name of the restaurant of type object with the following conditions:
+ - Has a property called "name"
+     - String data type
+     - Worth "Mang Dicoding Meatballs".
+ - Has a property called "city"
+     - String data type
+     - Valued "Bandung".
+ - Has the "favorite drink" property
+     - String data type
+     - Worth "Iced Tea".
+ - Has the "favorite food" property
+     - String data type
+     - Worth "Meatballs".
+ - Has the "isVegan" property
+     - Boolean data type
+     - Values false.
+2. Create a variable called name.
+ Then fill in the name value from the restaurant object property
+3. Create a variable called favoriteDrink.
+ Then fill in the "favorite drink" value from the restaurant object property
+```
+Answer code : 
+```javascript
+let restaurant = {
+	name : "Mang Dicoding Meatballs",
+  	city : "Bandung",
+  	"favorite drink" : "Iced Tea",
+  	"favorite food" : "Meatballs",
+  	isVegan : false
+}
+
+let name = restaurant.name
+let favoriteDrink = restaurant["favorite drink"]
+```
+Optional code : 
+```javascript
+console.log(restaurant);
+console.log(name);
+console.log(favoriteDrink);
+```
+Output : 
+```
+
+```
+For source code explore in [3.10-Quizcodingobject.js]()
+
+### 3.11 Coding Quiz : Array
+
+To test practical skills in understanding Array in JavaScript, let's complete the following quiz.
+
+To do : 
+```
+Create a variable with the name evenNumber which is an array with the following conditions:
+ - The array holds even numbers from 1 to 100
+
+Notes:
+ - To make it easier, use a for loop and if logic to fill in even numbers in the array.
+```
+Answer code : 
+```javascript
+let evenNumber = [];
+let i = 1;
+
+while (i <= 100) {
+  	if (i % 2 == 0) {
+    	evenNumber.push(i);
+    }
+	i++; 
+}
+```
+Optional code : 
+```javascript
+console.log(evenNumber);
+```
+Output : 
+```
+
+```
+For source code explore in [3.11-Quizcodingarray.js]()
+
+### 3.12 Coding Quiz : Map
+
+To test practical skills in understanding Map in JavaScript, let's complete the following quiz.
+
+To do  : 
+```
+1. Create a currency variable which is a map with the following criteria:
+ - key "USD", value 14000
+ - key "JPY", value 131
+ - key "SGD", value 11000
+ - key "MYR", value 3500
+2. Create a priceInIDR variable whose value is the result of the multiplication:
+ - priceInJPY with JPY currency value
+```
+Code from Dicoding : 
+```javascript
+const priceInJPY = 5000;
+```
+Answer code : 
+```javascript
+let currency = new Map([
+  ['USD', 14000],
+  ['JPY', 131],
+  ['SGD', 11000],
+  ['MYR', 3500]
+]);
+
+let priceInIDR = priceInJPY * currency.get("JPY")
+```
+Output : 
+```
+
+```
+For source code explore in [3.12-Quizcodingmap.js]()

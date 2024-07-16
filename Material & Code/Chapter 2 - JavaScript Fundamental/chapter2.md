@@ -886,14 +886,13 @@ For exploring about Infinite Loop you can go to [2.8.4-Infiniteloop.js](https://
 
 To test practical skills in understanding variables and data types in JavaScript, let's complete the following quiz.
 
+To do : 
 ```
-* TODO:
- * Create variables firstName, lastName, age, isMarried with the following conditions:
- * - firstName: string data type, with value "John".
- * - lastName: string data type, with value "Doe".
- * - age: number data type, with value 25.
- * - isMarried: boolean data type, with value true.
- */
+ Create variables firstName, lastName, age, isMarried with the following conditions:
+ - firstName: string data type, with value "John".
+ - lastName: string data type, with value "Doe".
+ - age: number data type, with value 25.
+ - isMarried: boolean data type, with value true.
 ```
 Answer Code : 
 ```javascript
@@ -919,6 +918,7 @@ For source code explore in [2.9-Quizcodingvariabledataype.js](https://github1s.c
 
 To test practical skills in understanding operator logic and if/ else in JavaScript, let's complete the following quiz.
 
+To do : 
 ```
 Create if logic to evaluate the score value with the following conditions:
 1. If the score is 90 or more
