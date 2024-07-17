@@ -15,8 +15,9 @@ This branch contains JavaScript code developed for the Introduction to Javascrip
 
 This repository includes various code examples, assignments, and projects that based by chapter : 
 
-- Chapter 1 : Introduction to Javascript ([MD](https://hackmd.io/-aPr7PqpRCSp1CvGpTVmJQ), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%201%20-%20Introduction%20to%20Javascript))
-- Chapter 2 : Javascript Fundamental ([MD](https://hackmd.io/-aPr7PqpRCSp1CvGpTVmJQ), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental))
+- Chapter 1 : Introduction to Javascript ([MD](https://hackmd.io/@hilmimusyafa/S1OhfX9vA), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%201%20-%20Introduction%20to%20Javascript))
+- Chapter 2 : Javascript Fundamental ([MD](https://hackmd.io/@hilmimusyafa/H1qOHQ5vA), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental))
+- Chapter 3 : Data Structure ([MD](https://hackmd.io/@hilmimusyafa/B1mFvqCP0), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure))
 
 ## Prerequisites
 
@@ -35,15 +36,15 @@ To get started with this branch, follow these steps:
     cd your-repository
     ```
 
-<!-- 2. **Set Up Node.js Environment**:
-    Ensure your Node.js environment is set up correctly by installing Node.js and npm. -->
+2. **Set Up Node.js Environment**:
+    Ensure your Node.js environment is set up correctly by installing Node.js and npm.
 
-2. **Run the Code**
-<!--     Navigate to the respective project or assignment directory and run the JavaScript code using the `node` command. For example:
+3. **Run the Code**
+    Navigate to the respective project or assignment directory and run the JavaScript code using the `node` command. For example:
     ```bash
-    cd week1/hello-world
-    node main.js
-    ``` -->
+    cd "Material & Code/Chapter 1 - Introduction to Javascript"
+    node 1.1-Helloworld.js
+    ```
 
 ## Contributing
 
