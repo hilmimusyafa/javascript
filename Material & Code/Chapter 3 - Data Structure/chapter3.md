@@ -354,7 +354,7 @@ Output :
 { firstName: 'Obi-Wan', age: 30, lastName: 'Kenobi', gender: 'M' }
 ```
 
-You can explore more about Delete Data Array Based on Index in [3.3-Spreadoperator.js]()
+You can explore more about Delete Data Array Based on Index in [3.3-Spreadoperator.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.3-Spreadoperator.js)
 
 ### 3.4 Destructuring Object & Array
 
@@ -413,7 +413,7 @@ Look at the code above, the code extracts the value in the object, then stores i
 
 That's the reason ES6 adds features that make it easier for us to destructuring objects and arrays. When we want to break down the data structure into smaller parts, it will be easier for us to get the desired data.
 
-For Example about Destructuring Object & Array you can open the code in [3.4-DestructuringObject&Array.js]()
+For Example about Destructuring Object & Array you can open the code in [3.4-DestructuringObject&Array.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.4-DestructuringObject%26Array.js)
 
 ### 3.5 Destructuring in Object
 
@@ -443,7 +443,7 @@ In destructuring an object, we can determine one of the values that we want to d
 const { lastName } = profile;
 ```
 
-For Example about Destructuring Object & Array you can open the code in [3.5.1-Destructuringobject.js]()
+For Example about Destructuring Object & Array you can open the code in [3.5.1-Destructuringobject.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.5.1-Destructuringobject.js)
 
 #### 3.5.2 Destructuring Assignment
 
@@ -481,7 +481,7 @@ Well, this is the function of brackets. It will tell JavaScript that the curly m
 ({ firstName, age } = profile);
 ```
 
-For Example about Destructuring Assignment you can open the code in [3.5.2-Destructuringassignment.js]()
+For Example about Destructuring Assignment you can open the code in [3.5.2-Destructuringassignment.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.5.2-Destructuringassignment.js)
 
 #### 3.5.3 Default Values
 
@@ -531,7 +531,7 @@ false
 ```
 If the property value is not found, then the default value is applied to the variable.
 
-For Example about Default Values Destructuring Object you can open the code in [3.5.3-Defaultvaluesdestructuringobject.js]()
+For Example about Default Values Destructuring Object you can open the code in [3.5.3-Defaultvaluesdestructuringobject.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.5.3-Defaultvaluesdestructuringobject.js)
 
 #### 3.5.4 Assigning to Different Local Variable Names
 
@@ -559,7 +559,7 @@ Doe
 18
 ```
    
-For Example about Assigning to Different Local Variable Names you can open the code in [3.5.4-Assigningtodifferentlocalvariablenames.js]()
+For Example about Assigning to Different Local Variable Names you can open the code in [3.5.4-Assigningtodifferentlocalvariablenames.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.5.4-Assigningtodifferentlocalvariablenames.js)
 
 ### 3.6 Destructuring in Array
 
@@ -607,7 +607,7 @@ Output :
 Nugget
 ```
 
-For Example about Destructuring Array you can open the code in [3.6.1-Destructuringarray.js]()
+For Example about Destructuring Array you can open the code in [3.6.1-Destructuringarray.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.6.1-Destructuringarray.js)
 
 #### 3.6.2 Destructuring Assignment
 
@@ -686,7 +686,7 @@ Value a: 2
 Value b: 1
 ```
 
-For Example about Destructuring Assignment Array you can open the code in [3.6.2-Destructuringassignmentarray.js]()
+For Example about Destructuring Assignment Array you can open the code in [3.6.2-Destructuringassignmentarray.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.6.2-Destructuringassignmentarray.js)
 
 #### 3.6.3 Default Values
 
@@ -721,7 +721,7 @@ Seafood
 Salad
 ```
 
-For Example about Default Value Destructuring Array you can open the code in [3.6.3-Defaultvaluedestructuringarray.js]()
+For Example about Default Value Destructuring Array you can open the code in [3.6.3-Defaultvaluedestructuringarray.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.6.3-Defaultvaluedestructuringarray.js)
 
 ### 3.7 Map
 
@@ -773,7 +773,7 @@ England
 4
 India
 ```
-For Example about Default Value Destructuring Array you can open the code in [3.7-Map.js]()
+For Example about Default Value Destructuring Array you can open the code in [3.7-Map.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.7-Map.js)
 
 ### 3.8 Set
 
@@ -824,7 +824,7 @@ Set(4) { 1, 6, 5, 10 }
 
 Remember that Set has no order or index, so the argument entered into the delete function is the value you want to delete, not the index.
 
-For Example about Default Value Destructuring Array you can open the code in [3.8-Set.js]()
+For Example about Default Value Destructuring Array you can open the code in [3.8-Set.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.8-Set.js)
 
 ### 3.9 WeakMap & WeakSet
 
@@ -906,7 +906,7 @@ Like WeakMap, WeakSet is a weak reference version of Set. The differences betwee
 - WeakSet is not an iterable and only has add(), has(), and delete() methods.
 - WeakSet does not have a size property
 
-For Example about Default Value Destructuring Array you can open the code in [3.9-Weakmap&weakset.js]()
+For Example about Default Value Destructuring Array you can open the code in [3.9-Weakmap&weakset.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.9-Weakmap%26weakset.js)
 
 ### 3.10 Coding Quiz : Object
 
@@ -966,7 +966,7 @@ Output :
 Mang Dicoding Meatballs
 Iced Tea
 ```
-For source code explore in [3.10-Quizcodingobject.js]()
+For source code explore in [3.10-Quizcodingobject.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.10-Quizcodingobject.js)
 
 ### 3.11 Coding Quiz : Array
 
@@ -1006,7 +1006,7 @@ Output :
   90, 92, 94, 96, 98, 100
 ]
 ```
-For source code explore in [3.11-Quizcodingarray.js]()
+For source code explore in [3.11-Quizcodingarray.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.11-Quizcodingarray.js)
 
 ### 3.12 Coding Quiz : Map
 
@@ -1047,4 +1047,4 @@ Output :
 Map(4) { 'USD' => 14000, 'JPY' => 131, 'SGD' => 11000, 'MYR' => 3500 }
 655000
 ```
-For source code explore in [3.12-Quizcodingmap.js]()
+For source code explore in [3.12-Quizcodingmap.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.12-Quizcodingmap.js)
