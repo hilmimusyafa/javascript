@@ -737,9 +737,9 @@ If you want to determine the value of the Map directly, use a multi-dimensional 
 
 ```javascript
 const myMap = new Map([
-  ['1', 'a String key'],
-  [1, 'a number key'],
-  [true, true]
+    ['1', 'a String key'],
+    [1, 'a number key'],
+    [true, true]
 ]);
 
 console.log(myMap)
@@ -755,9 +755,9 @@ When we have created a Map object, we can get its value based on a certain key u
 
 ```javascript
 const capital = new Map([
-  ["Jakarta", "Indonesia"],
-  ["London", "England"],
-  ["Tokyo", "Japan"]
+    ["Jakarta", "Indonesia"],
+    ["London", "England"],
+    ["Tokyo", "Japan"]
 ]);
 
 console.log(capital.size);
@@ -945,8 +945,8 @@ let restaurant = {
   	isVegan : false
 }
 
-let name = restaurant.name
-let favoriteDrink = restaurant["favorite drink"]
+let name = restaurant.name;
+let favoriteDrink = restaurant["favorite drink"];
 ```
 Optional code : 
 ```javascript
@@ -956,7 +956,15 @@ console.log(favoriteDrink);
 ```
 Output : 
 ```
-
+{
+  name: 'Mang Dicoding Meatballs',
+  city: 'Bandung',
+  'favorite drink': 'Iced Tea',
+  'favorite food': 'Meatballs',
+  isVegan: false
+}
+Mang Dicoding Meatballs
+Iced Tea
 ```
 For source code explore in [3.10-Quizcodingobject.js]()
 
@@ -990,7 +998,13 @@ console.log(evenNumber);
 ```
 Output : 
 ```
-
+[
+   2,  4,  6,  8, 10,  12, 14, 16, 18, 20, 22,
+  24, 26, 28, 30, 32,  34, 36, 38, 40, 42, 44,
+  46, 48, 50, 52, 54,  56, 58, 60, 62, 64, 66,
+  68, 70, 72, 74, 76,  78, 80, 82, 84, 86, 88,
+  90, 92, 94, 96, 98, 100
+]
 ```
 For source code explore in [3.11-Quizcodingarray.js]()
 
@@ -1023,8 +1037,14 @@ let currency = new Map([
 
 let priceInIDR = priceInJPY * currency.get("JPY")
 ```
+Optional code : 
+```
+console.log(currency);
+console.log(priceInIDR);
+```
 Output : 
 ```
-
+Map(4) { 'USD' => 14000, 'JPY' => 131, 'SGD' => 11000, 'MYR' => 3500 }
+655000
 ```
 For source code explore in [3.12-Quizcodingmap.js]()

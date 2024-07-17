@@ -579,6 +579,7 @@ You can explore more about Logical Operator in [2.5.3-Logicaloperator.js](https:
 ### 2.6 If/Else Statement
 
 #### 2.6.1 Knowing If/Else Statement
+
 When developing a program, we will encounter branching paths depending on the conditions that occur. To accommodate and check a condition in JavaScript, we use the if keyword.
 
 The if statement will test a condition. If the condition evaluates to true, then the code block within it will be executed. Conversely, if it is false, then the specified process will be skipped.
