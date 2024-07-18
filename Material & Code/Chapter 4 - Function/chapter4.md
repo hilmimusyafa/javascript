@@ -19,7 +19,7 @@ In functions there is usually additional data in parentheses, often called param
 The following is an illustration of a function structure with parameters : 
 ![dos_3548b95abda5f416f45035b96a91a81820220613105342](https://hackmd.io/_uploads/HkDOLyS_R.png)
 
-You can try about function in [4.1.1-Basicoffunction.js]()
+You can try about function in [4.1.1-Basicoffunction.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.1.1-Basicoffunction.js)
 
 #### 4.1.2 Parameter & Argument
 
@@ -117,7 +117,7 @@ Bonjour Harry!
 
 What we need to pay attention to again is that when the return statement is executed, the function will immediately stop and return a value.
 
-For learn more about Parameter & Argument, you can open code in [4.1.2-Parameter&argument.js]()
+For learn more about Parameter & Argument, you can open code in [4.1.2-Parameter&argument.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.1.2-Parameter%26argument.js)
 
 #### 4.1.3 Expression Function
 
@@ -143,4 +143,7 @@ Output :
 Good Morning Ron!
 ```
 
-Explore more about Expression Function in [4.1.3-ExpressionFunction.js]()
+Explore more about Expression Function in [4.1.3-ExpressionFunction.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.1.3-ExpressionFunction.js)
+
+### 4.2 Function Parameter
+
