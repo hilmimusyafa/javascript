@@ -147,3 +147,203 @@ Explore more about Expression Function in [4.1.3-ExpressionFunction.js](https://
 
 ### 4.2 Function Parameter
 
+#### 4.2.1 Back to Function Parameter
+
+In the previous material, we were acquainted with functions which are blocks of code that can receive input and produce certain outputs. Input to a function is passed through parameters.
+
+In functions we will encounter many terms parameters & arguments. The use of these terms is often confused, even among developers.
+
+The basic differences between the two include:
+
+1. Parameters are variables that are defined as input to a function. Example : 
+
+```javascript
+function multiply(a, b) {
+    return a * b;
+}
+```
+
+2. Arguments are values or expressions that are entered into the function. For example : 
+```javascript
+multiply(3, 4);
+```
+
+The parameters of a function can be any data type, ranging from strings, numbers, objects, even other functions.
+
+If the parameter of the function is an object, we can also use destructuring the object to get its value. Examples are as follows :
+
+```javascript
+const user = {
+    id: 24,
+    displayName: 'kren',
+    fullName: 'Kylo Ren',
+};
+
+function introduce({displayName, fullName}) {
+    console.log(`${displayName} is ${fullName}`);
+}
+
+introduce(user);
+```
+Output : 
+```
+kren is Kylo Ren
+```
+
+You can back to explore more about Function Parameter in [4.2.1-Functionparameter.js]()
+
+#### 4.2.2 Default Parameter
+
+Functions in JavaScript do not check the number or type of arguments entered into the parameters. This means we can enter arguments even if they do not fit the defined parameters.
+
+```javascript
+function exponentsFormula(baseNumber, exponent) {
+    const result = baseNumber ** exponent;
+    console.log(`${baseNumber}^${exponent} = ${result}`);
+}
+
+exponentsFormula(2);
+```
+Output : 
+```
+2^undefined = NaN
+```
+
+As we can see in the code example above, when the arguments are fewer than the parameters, the undefined parameters will have the value undefined. As a solution, if possible, we can provide default values for the parameters. This value will be used if we do not enter parameters
+
+```javascript
+function exponentsFormula(baseNumber, exponent = 2) {
+    const result = baseNumber ** exponent;
+    console.log(`${baseNumber}^${exponent} = ${result}`);
+}
+
+exponentsFormula(3);
+```
+Output : 
+```
+3^2 = 9
+```
+
+Knowing more about Default Parameter in [4.2.2-Defaultparameter.js]()
+
+#### 4.2.3 Rest Parameter
+
+Do you still remember the spread operator (...)? If the spread operator spreads an array into several different elements, the rest parameter is the inverse of that operator. Curious?
+
+Rest parameters are also written using three consecutive dots (...). With the rest parameter, we can combine several elements into one array. Of course, this technique is very useful when we want to create a function with uncertain parameters.
+
+An example is a function that adds up all argument values as follows : 
+```javascript
+function sum(...numbers) {
+    let result = 0;
+    for (let number of numbers) {
+        result += number;
+    }
+    return result;
+}
+
+console.log(sum(1, 2, 3, 4, 5));
+```
+Output : 
+```
+15
+```
+
+More about Rest Parameter in [4.2.3-Restparameter.js]()
+
+### 4.3 Arrow Function
+
+ES6 introduces a new function called arrow function expression or better known as arrow function. Arrow functions are similar to regular functions in behavior, but differ in writing. As the name suggests, functions are defined using arrows or fat arrows ( => ). Of course, writing this arrow function will be shorter.
+
+In addition to syntactic differences, there are behavioral differences between arrow functions and regular functions. Regular functions can be in the form of function declarations and function expressions. However, arrow functions are only expression functions. That's why the arrow function has the full name "arrow function expression".
+
+- Regular Function
+
+```javascript
+function sayHello(greet) {
+    console.log(`${greet}!`);
+}
+ 
+// function expression
+const sayName = function (name) {
+    console.log(`My name is ${name}`)
+}
+```
+-  Arrow Function
+
+```javascript
+// function expression
+const sayHello = (greet) => {
+    console.log(`${greet}!`)
+}
+ 
+const sayName = (name) => {
+    console.log(`My name is ${name}`)
+}
+```
+
+In the arrow function, we don't need to write the function keyword every time we create a function. We still write parameters in brackets followed by an arrow (=>) before the curly braces.
+
+```javascript
+const sayName = (name) => {
+    console.log(`My name is ${name}`)
+}
+```
+
+If the function only has one parameter, then we can remove the brackets as follows : 
+
+```javascript
+const sayName = name => {
+    console.log(`My name is ${name}`)
+}
+
+sayName("Leia");
+```
+Output : 
+```
+My name is Leia
+```
+
+However, if we don't need parameters at all, then we still write empty brackets like this : 
+
+```javascript
+const sayHello = () => {
+    console.log("Good Morning Everyone!")
+};
+
+sayHello();
+```
+Output : 
+```
+Good Morning Everyone!
+```
+
+One interesting thing, when the body of the function only consists of one line, we can remove the curly braces. Of course this will save the lines of code we write.
+
+```javascript
+const sayName = name => console.log(`My name is ${name}`);
+sayName("Leia");
+
+const sayHello = () => console.log("Good Morning Everyone!");
+sayHello();
+```
+Output : 
+```
+My name is Leia
+Good Morning Everyone!
+```
+
+When a function needs to return a value, we no longer need to write return (only works for single-line functions).
+
+```javascript  
+const multiply = (a, b) => a * b;
+console.log(multiply(3, 4));
+```
+Output : 
+```
+12
+```
+
+You can explore more about Arrow Function [4.3-Arrowfunction.js]()
+
+### 4.4 Variable Scope
