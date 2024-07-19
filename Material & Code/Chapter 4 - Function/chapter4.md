@@ -190,7 +190,7 @@ Output :
 kren is Kylo Ren
 ```
 
-You can back to explore more about Function Parameter in [4.2.1-Functionparameter.js]()
+You can back to explore more about Function Parameter in [4.2.1-Functionparameter.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.2.1-Functionparameter.js)
 
 #### 4.2.2 Default Parameter
 
@@ -224,7 +224,7 @@ Output :
 3^2 = 9
 ```
 
-Knowing more about Default Parameter in [4.2.2-Defaultparameter.js]()
+Knowing more about Default Parameter in [4.2.2-Defaultparameter.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.2.2-Defaultparameter.js)
 
 #### 4.2.3 Rest Parameter
 
@@ -249,7 +249,7 @@ Output :
 15
 ```
 
-More about Rest Parameter in [4.2.3-Restparameter.js]()
+More about Rest Parameter in [4.2.3-Restparameter.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.2.3-Restparameter.js)
 
 ### 4.3 Arrow Function
 
@@ -344,6 +344,6 @@ Output :
 12
 ```
 
-You can explore more about Arrow Function [4.3-Arrowfunction.js]()
+You can explore more about Arrow Function [4.3-Arrowfunction.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.3-Arrowfunction.js)
 
 ### 4.4 Variable Scope
