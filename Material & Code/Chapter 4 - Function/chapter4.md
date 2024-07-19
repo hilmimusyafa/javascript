@@ -347,3 +347,214 @@ Output :
 You can explore more about Arrow Function [4.3-Arrowfunction.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.3-Arrowfunction.js)
 
 ### 4.4 Variable Scope
+
+Previously, we learned about functions and variables or constants, which will be related to this material, where in programming there is the term variable scoping.
+
+A scoping variable is a variable that is allocated only in a certain place, this particular place can be in the program/code, or in a certain function. or dfunction inside that function.
+
+There are 2, namely. "globally scoped" and "locally scoped", for "globally scoped" is a variable/constant that can be used everywhere in the program, in functions, etc. "Locally scoped" is a variable/constant that is only used in certain functions.
+
+This is a direct example for variable scope : 
+```javascript
+// global variable, can be accessed in parent() and child()
+const a = 'a';
+
+function parent() {
+    // local variable, can be accessed in parent() and child(), but cannot be accessed outside the function.
+    const b = 'b';
+
+    function child() {
+         // local variable, accessible only in the child() function.
+        const c = 'c';
+    }
+}
+```
+We must be careful in defining variables inside functions. The reason is, we can get unexpected results, for example the following  : 
+
+```javascript
+function multiply(num) {
+    total = num * num;
+    return total;
+}
+
+let total = 9;
+let number  = multiply(20);
+
+console.log(total)
+```
+Output : 
+```
+400
+```
+
+Maybe we hope that the total value will remain 9, considering that the total variable in the multiply function should not have any effect on code outside of that function. This can happen because in the multiply() function we do not set the total variable as local scope. We do not use the const or let keywords when declaring the total variable in the multiply() function so that the total variable becomes global.
+
+> *We need to pay attention, if we forget to write the let, const, or var keywords in the script when creating a variable, then the variable will become global.*
+
+As much as possible we should avoid creating global variables, because global variables can be accessed in all the scripts we write. The more global variables we write, the higher the possibility of a collision occurring.
+
+You can learn about Variable Scope in [4.4-Closure.js]()
+
+### 4.5 Closure
+
+After learning about scope in the previous material, this time we will discuss closure. Previously we knew that functions can be defined in the global scope or within other functions. A function that can access variables within its lexical scope is called a closure. Lexical scope means that in a nested function, the function inside has access to variables in its parent scope.
+
+```javascript
+function init() {
+    const name = 'Obi Wan'; // Local variable within the scope of the init function
+
+    function greet() { // Inner function, is an example of a closure
+        console.log(`Hello, ${name}`); // Calls the variable declared in the parent function
+    }
+    greet();
+}
+
+init();
+```
+Output :
+```
+Hello, Obi Wan
+```
+
+The init() function has a local variable name and a greet() function. The greet() function is an inner function defined inside init() and can only be accessed from within the init() function. Note that the greet() function has no local variables. However, because the inner function has access to variables in its parent function, greet() can access the name variable. That is what is meant by lexical scope.
+
+Now look at the following code example : 
+
+```javascript
+function init() {
+    const name = 'Obi Wan';
+
+    function greet() {
+        console.log(`Hello, ${name}`);
+        }
+
+    return greet;
+}
+
+const myFunction = init();
+myFunction();
+```
+Output : 
+```
+Hello, Obi Wan
+```
+
+The above code will produce the same output. The difference is that the greet() function is returned from the outer function before being executed. Because the name variable is in the scope of init(), generally the variable will be lost or deleted when the function is finished executing. However, in the case above, the greet() function which is accessed via the MyFunction() function still has a reference or access to the name variable. The variables in the mechanism above are closed, which means the variables are in closure.
+
+Indeed, at the beginning it was quite difficult to understand closure. So, let's see directly what these closures are used for in a real program.
+
+JavaScript does not have a way to declare a function or variable to be private like the Java language. So a function or variable can be accessed from anywhere. Why do we need private methods? One is to restrict access to functions or variables. Consider the following example : 
+
+```javascript
+let counter = 0;
+
+const add = () => {
+    return ++counter;
+}
+
+console.log(add());
+console.log(add());
+counter = 23;
+console.log(add());
+```
+Output : 
+```
+1
+2
+24
+```
+
+The counter value will increase when we call the add() function. However, we can also change the counter value directly with the assignment operator. In more complex program examples, this should be avoided because direct changes to the counter value could introduce bugs.
+
+Closures allow us to make functions and variables appear to be private. This is an example of a counter program created with a closure : 
+
+```javascript
+const add = () => {
+    let counter = 0;
+        return () => {
+            return ++counter;
+    };
+}
+
+const addCounter = add();
+
+console.log(addCounter());
+console.log(addCounter());
+console.log(addCounter());
+```
+Output : 
+```
+1
+2
+3
+```
+
+Learn more about Closure in [4.5-Closure.js]()
+
+### 4.6 Quiz Coding : Function
+
+To test practical skills in understanding operator logic and Function in JavaScript, let's complete the following quiz.
+
+To do : 
+```
+TODO:
+1. Create a minimally named function with the following conditions:
+ - Accepts two number arguments, a and b.
+ - Returns the smallest value between a or b.
+ - If both values are the same, then return the value a.
+example:
+minimum(1, 4) // output: 1
+minimum(3, 2) // output: 2
+minimum(3, 3) // output: 3
+
+2. Create a function called findIndex that accepts two parameters, namely array and number.
+- The function must return the index of the corresponding number in the array.
+- If the number is not found, then return the value -1.
+
+example:
+findIndex([1, 2, 3, 4, 5], 3) // output: 2
+findIndex([1, 2, 3, 4, 5], 6) // output: -1
+findIndex([1, 2, 3, 4, 5], 5) // output: 4
+```
+Answer Code : 
+```javascript
+function minimal(a, b) {
+    let smaller = 0;
+    if (a <= b) {
+    	smaller = a
+    } else {
+    	smaller = b
+    }
+    return smaller
+}
+
+function findIndex(array, number) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === number) {
+            return i;
+        }
+    }
+    return -1;
+}
+```
+Optional Code : 
+```javascript
+console.log(minimum(1, 4));
+console.log(minimum(3, 2));
+console.log(minimum(1, 4));
+
+console.log(findIndex([1, 2, 3, 4, 5], 3))
+console.log(findIndex([1, 2, 3, 4, 5], 6))
+console.log(findIndex([1, 2, 3, 4, 5], 5))
+```
+Output : 
+```
+1
+2
+1
+2
+-1
+4
+```
+
+For source code you can open in [4.6-Quizcodingfunction.js]()
