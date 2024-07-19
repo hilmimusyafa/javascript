@@ -393,7 +393,7 @@ Maybe we hope that the total value will remain 9, considering that the total var
 
 As much as possible we should avoid creating global variables, because global variables can be accessed in all the scripts we write. The more global variables we write, the higher the possibility of a collision occurring.
 
-You can learn about Variable Scope in [4.4-Closure.js]()
+You can learn about Variable Scope in [4.4-Variablescope.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.4-Variablescope.js)
 
 ### 4.5 Closure
 
@@ -489,7 +489,7 @@ Output :
 3
 ```
 
-Learn more about Closure in [4.5-Closure.js]()
+Learn more about Closure in [4.5-Closure.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.5-Closure.js)
 
 ### 4.6 Quiz Coding : Function
 
@@ -557,4 +557,4 @@ Output :
 4
 ```
 
-For source code you can open in [4.6-Quizcodingfunction.js]()
+For source code you can open in [4.6-Quizcodingfunction.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.6-Quizcodingfunction.js)
