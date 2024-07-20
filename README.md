@@ -1,6 +1,6 @@
 # 256 - Introduction to Javascript - Dicoding
 
-[![Github Banner](Utilities\GitHub Banner\Github Banner.png)
+[![Github Banner](dicoding-course-introductiontojavascript\Utilities\GitHub Banner\Github Banner.png)
 
 ## Description
 
