@@ -1,6 +1,6 @@
 # 256 - Introduction to Javascript - Dicoding
 
-![Github Banner]("Utilities\GitHub Banner\Github Banner.png")
+![Github Banner](https://github.com/user-attachments/assets/090cbcd8-7eef-4958-b396-2c5a39c51fcc)
 
 ## Description
 
