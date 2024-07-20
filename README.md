@@ -1,6 +1,6 @@
 # 256 - Introduction to Javascript - Dicoding
 
-![Github Banner](https://hackmd.io/_uploads/Hy_T_hdO0.png)
+![Github Banner]("Utilities\GitHub Banner\Github Banner.png")
 
 ## Description
 
