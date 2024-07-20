@@ -1,5 +1,7 @@
 # 256 - Introduction to Javascript - Dicoding
 
+![Github Banner](https://hackmd.io/_uploads/ryl_unO_C.png)
+
 ## Description
 
 This branch contains JavaScript code developed for the Introduction to Javascript course, designated by the course code 256 by Dicoding Indonesia. The projects and assignments in this repository are part of the curriculum for learning the fundamentals of programming, focusing on the JavaScript programming language.
