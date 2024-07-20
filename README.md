@@ -1,5 +1,7 @@
 # 256 - Introduction to Javascript - Dicoding
 
+![Github Banner](https://hackmd.io/_uploads/Hy_T_hdO0.png)
+
 ## Description
 
 This branch contains JavaScript code developed for the Introduction to Javascript course, designated by the course code 256 by Dicoding Indonesia. The projects and assignments in this repository are part of the curriculum for learning the fundamentals of programming, focusing on the JavaScript programming language.
@@ -18,6 +20,7 @@ This repository includes various code examples, assignments, and projects that b
 - Chapter 1 : Introduction to Javascript ([MD](https://hackmd.io/@hilmimusyafa/S1OhfX9vA), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%201%20-%20Introduction%20to%20Javascript))
 - Chapter 2 : Javascript Fundamental ([MD](https://hackmd.io/@hilmimusyafa/H1qOHQ5vA), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental))
 - Chapter 3 : Data Structure ([MD](https://hackmd.io/@hilmimusyafa/B1mFvqCP0), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure))
+- Chapter 4 : Function ([MD](https://hackmd.io/@hilmimusyafa/rye_yT4dR), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%204%20-%20Function))
 
 ## Prerequisites
 
