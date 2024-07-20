@@ -1,6 +1,6 @@
 # 256 - Introduction to Javascript - Dicoding
 
-![Github Banner](https://hackmd.io/_uploads/ryl_unO_C.png)
+![Github Banner](https://hackmd.io/_uploads/Hy_T_hdO0.png)
 
 ## Description
 
