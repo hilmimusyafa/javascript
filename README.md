@@ -1,21 +1,28 @@
-# 256 - Introduction to Javascript - Dicoding
+# Javascript Documentations
 
-![Github Banner](https://github.com/user-attachments/assets/090cbcd8-7eef-4958-b396-2c5a39c51fcc)
+![Github Banner](https://github.com/user-attachments/assets/73d37afe-9b5e-4cae-a1c4-5a6766004f55)
 
 ## Description
 
-This branch contains JavaScript code developed for the Introduction to Javascript course, designated by the course code 256 by Dicoding Indonesia. The projects and assignments in this repository are part of the curriculum for learning the fundamentals of programming, focusing on the JavaScript programming language.
+This repository contains comprehensive documentation and examples for JavaScript. It is a personal project aimed at providing clear and concise explanations of various JavaScript concepts and features. This Repository is best for learn Basic Programming in JavaScript.
 
-## Course Information
+## Feature
 
-- **Course Title**: Introduction to Javascript
-- **Course Code**: 256
-- **Course From** : Dicoding Indonesia
-- **Language**: JavaScript
+- Detailed explanations of JavaScript concepts
+- Code examples for better understanding
+- Organized by topics and categories
+- Easy navigation through documentation
+
+## Reference 
+
+- [Dicoding (256/ Introduction to JavaScript)](https://www.dicoding.com/academies/256)
+- [Programmiz - Javascript](https://www.programiz.com/javascript)
+- [Web Programming UNPAS](https://www.youtube.com/watch?v=RUTV_5m4VeI&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w)
+- [Programmer Zaman Now](https://www.youtube.com/watch?v=SDROba_M42g&list=PL-CtdCApEFH8SS0Gsj9_a0cC0jypFEoSg)
 
 ## Contents
 
-This repository includes various code examples, assignments, and projects that based by chapter : 
+This repository that based by chapter : 
 
 - Chapter 1 : Introduction to Javascript ([MD](https://hackmd.io/@hilmimusyafa/S1OhfX9vA), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%201%20-%20Introduction%20to%20Javascript))
 - Chapter 2 : Javascript Fundamental ([MD](https://hackmd.io/@hilmimusyafa/H1qOHQ5vA), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental))
@@ -56,7 +63,3 @@ If you would like to contribute to this branch, please follow these guidelines:
 1. Fork the repository and create your branch from `main`.
 2. Ensure any new code is well-documented and follows JavaScript conventions.
 3. Create a pull request and describe the changes you've made.
-
-## Acknowledgments
-
-Special thanks to the course instructor for their support and guidance throughout the course.
