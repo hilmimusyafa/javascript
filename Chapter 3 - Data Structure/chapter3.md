@@ -69,7 +69,7 @@ Output :
 Hello, my name is Bronya Rand
 I work in Leader division
 ```
-You can explore more about Object in [3.1.1-Objectbasicexplanation.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.1.1-Objectbasicexplanation.js)
+You can explore more about Object in [3.1.1-Objectbasicexplanation.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%203%20-%20Data%20Structure/3.1.1-Objectbasicexplanation.js)
 
 #### 3.1.2 Modify Object
 
@@ -135,7 +135,7 @@ Output :
 { firstName: "Bronya", lastName: "Rand", idUser : 0009, fullAcess: true }
 ```
 
-You can explore more about Modifying Objects in [3.1.2-Modifyingobject.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.1.2-Modifypropertiesobject.js)
+You can explore more about Modifying Objects in [3.1.2-Modifyingobject.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%203%20-%20Data%20Structure/3.1.2-Modifyingobject.js)
 
 ### 3.2 Array
 
@@ -179,7 +179,7 @@ Cartoon
 undefined
 ```
 
-You can explore more about Array in [3.2.1-Arraybasicexplanation.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.2.1-Arraybasicexplanation.js)
+You can explore more about Array in [3.2.1-Arraybasicexplanation.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%203%20-%20Data%20Structure/3.2.1-Arraybasicexplanation.js)
 
 #### 3.2.2 Modifying Array
 
@@ -269,7 +269,7 @@ before splice:  [ 'Big Hero 6', 9.7, true, 'Cartoon' ]
 after splice:  [ 'Big Hero 6', 2017, 9.7, true, 'Cartoon' ]
 ```
 
-You can explore more about Modifying Array in [3.2.2-Modifyingarray.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.2.5-Deletedataarraybasedonindex.js)
+You can explore more about Modifying Array in [3.2.2-Modifyingarray.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%203%20-%20Data%20Structure/3.2.2-Modifyingarray.js)
 
 
 ### 3.3 Spread Operator
@@ -320,7 +320,7 @@ Output :
 { name: 'Himeko', age: 30, gender: 'F', from: 'Astral Express' }
 ```
 
-You can explore more about Delete Data Array Based on Index in [3.3-Spreadoperator.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.3-Spreadoperator.js)
+You can explore more about Delete Data Array Based on Index in [3.3-Spreadoperator.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%203%20-%20Data%20Structure/3.3-Spreadoperator.js)
 
 ### 3.4 Destructuring Object & Array
 
@@ -432,7 +432,7 @@ Bronya Rand
 Belobog
 ```
 
-You can explore more about Destructuring Object in [3.4.1-Destructuringobject.js]()
+You can explore more about Destructuring Object in [3.4.1-Destructuringobject.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%203%20-%20Data%20Structure/3.4.1-Destructuringobject.js)
 
 #### 3.4.2 Destructuring Array
 
@@ -564,7 +564,7 @@ March7th
 Caelus
 ```
 
-You can explore more about Destructuring Array in [3.4.2-Destructuringarray.js]()
+You can explore more about Destructuring Array in [3.4.2-Destructuringarray.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%203%20-%20Data%20Structure/3.4.2-Destructuringarray.js)
 
 ### 3.5 Map & Set
 
@@ -613,7 +613,7 @@ Japan
 4
 Paris
 ```
-For Example about Default Value Destructuring Array you can open the code in [3.5.1-Map.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.7-Map.js)
+For Example about Default Value Destructuring Array you can open the code in [3.5.1-Map.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%203%20-%20Data%20Structure/3.5.1-Map.js)
 
 #### 3.5.2 Set
 
@@ -662,4 +662,4 @@ Set(4) { 1, 6, 5, 10 }
 ```
 Remember that Set has no order or index, so the argument entered into the delete function is the value you want to delete, not the index.
 
-For Example about Default Value Destructuring Array you can open the code in [3.5.2-Set.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure/3.8-Set.js)
+For Example about Default Value Destructuring Array you can open the code in [3.5.2-Set.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%203%20-%20Data%20Structure/3.5.2-Set.js)
