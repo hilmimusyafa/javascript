@@ -20,6 +20,8 @@ This repository contains comprehensive documentation and examples for JavaScript
 - [Web Programming UNPAS](https://www.youtube.com/watch?v=RUTV_5m4VeI&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w)
 - [Programmer Zaman Now](https://www.youtube.com/watch?v=SDROba_M42g&list=PL-CtdCApEFH8SS0Gsj9_a0cC0jypFEoSg)
 
+Note : I do not plagiarize or copy paste directly or indirectly from references, but rather the creation through my own thought process and creativity. For similarities, there may be some similarities but all of that is the result of my own brainstorming.
+
 ## Contents
 
 This repository that based by chapter : 
