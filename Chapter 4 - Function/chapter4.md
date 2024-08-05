@@ -1,4 +1,4 @@
-qWA## Chapter 4 : Function
+## Chapter 4 : Function
 
 ### 4.1 Object
 
