@@ -25,7 +25,7 @@ Here's the explanation :
 3. Action code : Last thing of course the action code, what the function does when it is called, you can write anything you want with that function.
 > ***return** in programming means the end of the function action, meaning if there is code or action after the return, that action will not be executed, also in some case function did not use return but it may another output way (like console.log).*
 
-You can try about function in [4.1.1-Basicoffunction.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.1.1-Basicoffunction.js)
+You can try about function in [4.1.1-Basicoffunction.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%204%20-%20Function/4.1.1-Basicoffunction.js)
 
 #### 4.1.2 Parameter & Argument
 
@@ -85,7 +85,7 @@ Hey March, do you want to go to the library with me?
 ```
 You can put if/ else, loop or anything else in function also now you can what is parameter and argument.
 
-For learn more about Parameter & Argument, you can open code in [4.1.2-Parameter&argument.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.1.2-Parameter%26argument.js)
+For learn more about Parameter & Argument, you can open code in [4.1.2-Parameter&argument.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%204%20-%20Function/4.1.2-Parameter%26argument.js)
 
 #### 4.1.3 Expression Function
 
@@ -115,7 +115,7 @@ Output :
 Hey March, do you want to go to the library with me?
 ```
 
-Explore more about Expression Function in [4.1.3-ExpressionFunction.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.1.3-ExpressionFunction.js)
+Explore more about Expression Function in [4.1.3-ExpressionFunction.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%204%20-%20Function/4.1.3-ExpressionFunction.js)
 
 ### 4.2 Function Parameter
 
@@ -160,7 +160,7 @@ Output :
 Username LittleGuiGuinevere is Guinaifen
 ```
 
-You can back to explore more about Function Parameter in [4.2.1-Functionparameter.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.2.1-Functionparameter.js)
+You can back to explore more about Function Parameter in [4.2.1-Functionparameter.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%204%20-%20Function/4.2.1-Functionparameter.js)
 
 #### 4.2.2 Default Parameter
 
@@ -192,7 +192,7 @@ Output :
 2^2 = 4
 ```
 
-Knowing more about Default Parameter in [4.2.2-Defaultparameter.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.2.2-Defaultparameter.js)
+Knowing more about Default Parameter in [4.2.2-Defaultparameter.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%204%20-%20Function/4.2.2-Defaultparameter.js)
 
 #### 4.2.3 Rest Parameter
 
@@ -215,7 +215,7 @@ Output :
 15
 ```
 
-More about Rest Parameter in [4.2.3-Restparameter.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.2.3-Restparameter.js)
+More about Rest Parameter in [4.2.3-Restparameter.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%204%20-%20Function/4.2.3-Restparameter.js)
 
 ### 4.3 Arrow Function
 
@@ -299,7 +299,7 @@ Output:
 1, 2, 3, ...
 ```
 
-You can explore more about Arrow Function [4.3-Arrowfunction.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.3-Arrowfunction.js)
+You can explore more about Arrow Function [4.3-Arrowfunction.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%204%20-%20Function/4.3-Arrowfunction.js)
 
 ### 4.4 Variable Scope
 
@@ -339,7 +339,7 @@ Output :
 ```
 400
 ```
-You can learn about Variable Scope in [4.4-Variablescope.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.4-Variablescope.js)
+You can learn about Variable Scope in [4.4-Variablescope.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%204%20-%20Function/4.4-Variablescope.js)
 
 ### 4.5 Closure
 
@@ -452,4 +452,4 @@ Output :
 
 Closure is a very important concept in JavaScript because it provides flexibility and power in managing data and functions. By understanding and using closures, we can write code that is more modular, safe, and easy to maintain.
 
-Learn more about Closure in [4.5-Closure.js](https://github1s.com/hilmimusyafa/dicoding-course-introductiontojavascript/blob/main/Material%20%26%20Code/Chapter%204%20-%20Function/4.5-Closure.js)
+Learn more about Closure in [4.5-Closure.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%204%20-%20Function/4.5-Closure.js)
