@@ -1,6 +1,6 @@
-# Javascript Documentations
+# JavaScript Documentations
 
-![Github Banner](https://github.com/user-attachments/assets/73d37afe-9b5e-4cae-a1c4-5a6766004f55)
+![Github Banner](https://hackmd.io/_uploads/Hy_T_hdO0.png)
 
 ## Description
 
@@ -20,8 +20,6 @@ This repository contains comprehensive documentation and examples for JavaScript
 - [Web Programming UNPAS](https://www.youtube.com/watch?v=RUTV_5m4VeI&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w)
 - [Programmer Zaman Now](https://www.youtube.com/watch?v=SDROba_M42g&list=PL-CtdCApEFH8SS0Gsj9_a0cC0jypFEoSg)
 
-Note : I do not plagiarize or copy paste directly or indirectly from references, but rather the creation through my own thought process and creativity. For similarities, there may be some similarities but all of that is the result of my own brainstorming.
-
 ## Contents
 
 This repository that based by chapter : 
@@ -30,6 +28,7 @@ This repository that based by chapter :
 - Chapter 2 : Javascript Fundamental ([MD](https://hackmd.io/@hilmimusyafa/H1qOHQ5vA), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%202%20-%20Javascript%20Fundamental))
 - Chapter 3 : Data Structure ([MD](https://hackmd.io/@hilmimusyafa/B1mFvqCP0), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%203%20-%20Data%20Structure))
 - Chapter 4 : Function ([MD](https://hackmd.io/@hilmimusyafa/rye_yT4dR), [Github](https://github.com/hilmimusyafa/dicoding-course-introductiontojavascript/tree/main/Material%20%26%20Code/Chapter%204%20-%20Function))
+-  Chapter 5 : Import & Export ([MD](https://hackmd.io/@hilmimusyafa/rypxFLg50), [Github](https://github.com/hilmimusyafa/javascript/tree/main/Chapter%205%20-%20Import%20%26%20Export))
 
 ## Prerequisites
 
