@@ -18,13 +18,14 @@ export default function functionA() {
     console.log('You imported functionA, from different file');
 }
 ```
-Output 5.1.0main.mjs : 
+Output 5.1.0-main.mjs : 
 ```
 You imported functionA, from different file
 ```
 
 > *Important : Import and export statements can only be used in the ECMAScript (ESM) module environment, while Node.js defaults to CommonJS (CJS) which uses require to import modules. But you can also change the file extension from ".js" to ".mjs". Node.js will automatically recognize files with the ".mjs" extension as ECMAScript modules. That's why in this session we will use ".mjs"*
 
+You can try in [5.1.0-main.mjs](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%205%20-%20Import%20%26%20Export/5.1.0-main.mjs)
 
 Here's some type of import : 
 
@@ -67,6 +68,8 @@ Output 5.1.1.2-main.mjs :
 ```
 This is default function
 ```
+
+You can try in [5.1.1.1-main.mjs](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%205%20-%20Import%20%26%20Export/5.1.1.1-main.mjs) and [5.1.1.2-main.mjs](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%205%20-%20Import%20%26%20Export/5.1.1.2-main.mjs)
 
 #### 5.1.2 Named Import 
 
@@ -140,7 +143,9 @@ himeko@astralexpress.com
 29
 ```
 
-> Remember, "{}" is specially based on the name, "*" is anything will be exported
+> *Remember, "{}" is specially based on the name, "*" is anything will be exported*
+
+You can try in [5.1.2.1-main.mjs](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%205%20-%20Import%20%26%20Export/5.1.2.1-main.mjs), [5.1.2.2-main.mjs](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%205%20-%20Import%20%26%20Export/5.1.2.2-main.mjs), and [5.1.2.3-main.mjs](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%205%20-%20Import%20%26%20Export/5.1.2.3-main.mjs)
 
 ### 5.2 Export
 
@@ -168,6 +173,8 @@ Output main.mjs :
 6
 ```
 
+You can try in [5.2.1-main.mjs](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%205%20-%20Import%20%26%20Export/5.2.1-main.mjs)
+
 #### 5.2.2 Named Export
 
 Named exports allow you to export multiple items from a module. When using named exports, you must import those items with the same name from another module. Here's an example : 
@@ -194,3 +201,5 @@ Output 5.2.2-main.mjs :
 6
 10
 ```
+
+You can try in [5.2.2-main.mjs](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%205%20-%20Import%20%26%20Export/5.2.2-main.mjs)
