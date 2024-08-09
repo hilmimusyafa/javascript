@@ -20,7 +20,7 @@ The OOP paradigm is often described in real world life. OOP can use in many thin
 And non OOP JavaScript code : 
 
 ```javascript
-const P1 = {
+const p1 = {
     // Properties
     name: 'March7th',
     weapon: 'Bow',
@@ -28,21 +28,24 @@ const P1 = {
     // Action or Methods
     attack: (enemy) => {
         console.log('March7th is attacking');
-    } defend: (ally) => {
+    },
+    ultimate: (ally) => {
         console.log('March7th is use Ultimate')
     }
 }
 
-const P2 = {
+const p2 = {
     // Properties
     name: 'Caelus',
     weapon: 'Sword',
     element: 'Fire',
     // Action or Methods
     attack: (enemy) => {
-        console.log('Caelus is attacking');
-    } ultimate: () => {
+        console.log('Caelus is attacking')
+    },
+    ultimate: () => {
         console.log('Caelus is use Ultimate')
+    }
 }
 
 // and more
@@ -90,7 +93,7 @@ Easy right? there is blueprint called person. In the blueprint, it will can defi
 
 Like the object in image, that's a concept for OOP you can make more object without rewrite in what's the properties. 
 
-You can explore about the confusing manual one to one object making [6.1-WhatisOOP.js]()
+You can explore about OOP in [6.1-WhatisOOP.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%206%20-%20Object%20Oriented%20Programming/6.1-WhatisOOP.js)
 
 ### 6.2 OOP Paradigm Constructor
 
@@ -158,7 +161,9 @@ TypeError: Car is not a constructor
 
 > *Usually, constructor function names are written with a capital letter to differentiate them from ordinary function names.*
 
-#### 5.2.2 Class Syntax in ES6
+You can try in [6.1.2-Functionconstructor.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%206%20-%20Object%20Oriented%20Programming/6.2.1-Functionconstructor.js)
+
+#### 6.2.2 Class Syntax in ES6
 
 A more modern way to create objects and classes is to use ES6. ES6 supports classes, making JavaScript similar to other class-based languages such as Java, C++, and C#. Here's how to create a class : 
 
@@ -194,5 +199,6 @@ P1.attack();
 ```
 Although JavaScript already supports classes, it does not turn JavaScript into a class-based programming language. In fact, class syntax in JavaScript is just syntactic sugar or an alternative way of defining constructor functions.
 
+You can try in [6.2.2-6.2.2-ClasssyntaxES6.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%206%20-%20Object%20Oriented%20Programming/6.2.2-ClasssyntaxES6.js)
 ### 6.3 The OOP Pillars
 
