@@ -200,5 +200,292 @@ P1.attack();
 Although JavaScript already supports classes, it does not turn JavaScript into a class-based programming language. In fact, class syntax in JavaScript is just syntactic sugar or an alternative way of defining constructor functions.
 
 You can try in [6.2.2-6.2.2-ClasssyntaxES6.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%206%20-%20Object%20Oriented%20Programming/6.2.2-ClasssyntaxES6.js)
+
 ### 6.3 The OOP Pillars
 
+Actually, there's important things in OOP, OOP have four important pillars who make easy and simple for the program. Here's the pillar : 
+
+#### 6.3.1 Inheritance
+
+Inheritance in OOP is meaning you can inherit in OOP, but in OOP you can't inheritance treasure from your parents, but inherit the property and method from a class to another class. Inherited properties and method come from class (parent) and are used in target class (child). Like real life, we get the nature and behavior of parents. Here's a basic concept :
+
+```javascript
+classSuperClass{}   
+ 
+classSubClassextendsSuperClass{}     
+```
+> *SuperClass and SubClass is important term in case for learn OOP, class that inherits its properties and methods is called SuperClass, Parent, Base, or Parent Class. A class that inherits properties and methods from another class is called SubClass and Children Class.*
+
+Here's a simple example of inheritance : 
+```javascript
+class Animal {
+  constructor(name, sound) {
+    this.name = name;
+    this.sound = sound;
+  }
+  speak() {
+    console.log(`${this.name} makes a sound: ${this.sound}`);
+  }
+}
+
+class Dog extends Animal {
+  constructor(name, breed) {
+    super(name, 'Woof');
+    this.breed = breed;
+  }
+  displayBreed() {
+    console.log(`${this.name} is a ${this.breed}`);
+  }
+}
+
+class Cat extends Animal {
+  constructor(name, color) {
+    super(name, 'Meow');
+    this.color = color;
+  }
+  displayColor() {
+    console.log(`${this.name} is a ${this.color} cat`);
+  }
+}
+
+const myDog = new Dog('Buddy', 'Golden Retriever');
+const myCat = new Cat('Ginger', 'Orange');
+
+myDog.speak();
+myCat.speak();
+
+console.log();
+
+myDog.displayBreed();
+myCat.displayColor();
+```
+Output : 
+```
+Buddy makes a sound: Woof
+Ginger makes a sound: Meow
+
+Buddy is a Golden Retriever
+Ginger is a Orange cat
+```
+
+> *In the example, the super keyword is used in the constructor of the Dog and Cat classes to call the constructor of the Animal class. This allows the subclass to inherit the properties from the parent class and add its own properties.*
+> 
+If the code write in image, it will like this : 
+![Tambahkan sedikit teks isi (10)](https://hackmd.io/_uploads/SyW_OPEcA.png)
+
+Dogs and cats will inherit properties and methods from the Animal class, so when creating an object from a cat or dog, the animal properties will still be inherited with the difference that there is additional specialization of the cat or dog properties according to what is created.
+
+You can make in Construction Function : 
+
+```javascript
+function Animal(name, sound) {
+  this.name = name;
+  this.sound = sound;
+}
+
+Animal.prototype.speak = function() {
+  console.log(`${this.name} makes a sound: ${this.sound}`);
+};
+
+function Dog(name, breed) {
+  Animal.call(this, name, 'Woof');
+  this.breed = breed;
+}
+
+Dog.prototype = Object.create(Animal.prototype);
+Dog.prototype.constructor = Dog;
+
+Dog.prototype.displayBreed = function() {
+  console.log(`${this.name} is a ${this.breed}`);
+};
+
+function Cat(name, color) {
+  Animal.call(this, name, 'Meow');
+  this.color = color;
+}
+
+Cat.prototype = Object.create(Animal.prototype);
+Cat.prototype.constructor = Cat;
+
+Cat.prototype.displayColor = function() {
+  console.log(`${this.name} is a ${this.color} cat`);
+};
+
+const myDog = new Dog('Buddy', 'Golden Retriever');
+const myCat = new Cat('Ginger', 'Orange');
+
+myDog.speak();
+myCat.speak();
+
+myDog.displayBreed();
+myCat.displayColor();
+```
+Output : 
+```
+Buddy makes a sound: Woof
+Ginger makes a sound: Meow
+
+Buddy is a Golden Retriever
+Ginger is a Orange cat
+```
+But if you use inheritance in Construction Function is hard to read, and the logics is need more time to know it. That's why ES6 is made.
+
+#### 6.3.2 Encapsulation
+
+Next is Encapsulation, this concept allows developers to hide the internal implementation details of an object and expose only the necessary interface to the user. With encapsulation, an object's attributes and methods can be protected from direct modification from outside the class. 
+
+There's 2 things to remember in encapsulation, public property and private property. In the code you provided, all properties and methods on the Animal, Dog, and Cat classes are public. This means that properties such as name, sound, breed, and color can be accessed and modified directly from outside the class. To implement encapsulation, we can make these properties private, so that they can only be accessed and modified through specific methods.
+
+To give the flag or sign, we can use "_" or "#" (for ES6) : 
+
+```javascript
+class IceCreamMachine {
+  constructor(flavour) {
+    this.flavour = flavour;
+    this._temperature = 90
+  }
+
+  set temperature(temperature) {
+    console.log('You are not allowed to change the temperature');
+  }
+
+  get temperature() {
+    return this._temperature;
+  }
+}
+
+const iceCream = new IceCreamMachine('chocolate');
+console.log('Before change : ', iceCream.temperature);
+iceCream.temperature = 100;
+console.log('After change : ', iceCream.temperature);
+```
+Output : 
+```
+Before change :  90
+You are not allowed to change the temperature
+After change :  90
+```
+
+If you access the private properties, you will get the error code.
+
+#### 6.3.3 Polymorphism
+
+Polymorphism is a core concept in Object-Oriented Programming (OOP) that allows objects of different classes to be treated as objects of a common super class. It’s about writing more generic and flexible code. In JavaScript, polymorphism is achieved through method overriding and interface-like behavior.
+
+```javascript
+class OperatingSystem {
+  constructor(name, version) {
+    this.name = name;
+    this.version = version;
+  }
+
+  boot() {
+    console.log(`Booting ${this.name} version ${this.version}`);
+  }
+}
+
+class AndroidOS extends OperatingSystem {
+  constructor(name, version, customSkin) {
+    super(name, version);
+    this.customSkin = customSkin;
+  }
+
+  boot() {
+    super.boot();
+    console.log(`${this.name} is booting with custom skin: ${this.customSkin}`);
+  }
+
+  splitScreen() {
+    console.log(`${this.name} supports Split Screen feature`);
+  }
+}
+
+const androidOS = new AndroidOS('Android', '12', 'One UI');
+
+androidOS.boot();
+```
+Output : 
+```
+Booting Android version 12
+Android is booting with custom skin: One UI
+```
+
+#### 6.3.4 Object Composition in JavaScript
+
+Object composition is a design principle in which objects are composed of other objects, meaning that instead of using inheritance (which represents an "is-a" relationship), you use composition (which represents a "has-a" relationship).
+
+```javascript
+class OperatingSystem {
+  constructor(name, version) {
+    this.name = name;
+    this.version = version;
+  }
+
+  boot() {
+    console.log(`Booting ${this.name} version ${this.version}`);
+  }
+}
+
+class Camera {
+  constructor(resolution) {
+    this.resolution = resolution;
+  }
+
+  takePhoto() {
+    console.log(`Taking photo with ${this.resolution} resolution`);
+  }
+}
+
+class Battery {
+  constructor(capacity) {
+    this.capacity = capacity;
+  }
+
+  charge() {
+    console.log(`Charging battery with capacity ${this.capacity}mAh`);
+  }
+}
+
+class Smartphone {
+  constructor(color, brand, os, camera, battery) {
+    this.color = color;
+    this.brand = brand;
+    this.os = os;
+    this.camera = camera;
+    this.battery = battery;
+  }
+
+  powerOn() {
+    console.log(`${this.brand} smartphone is powering on...`);
+    this.os.boot();
+  }
+
+  takePhoto() {
+    this.camera.takePhoto();
+  }
+
+  chargePhone() {
+    this.battery.charge();
+  }
+}
+
+// Create an instance for each component
+const os = new OperatingSystem('Android', '12');
+const camera = new Camera('108MP');
+const battery = new Battery(5000);
+
+// Create an instance of a Smartphone consisting of the above components.
+const smartphone = new Smartphone('Black', 'Samsung', os, camera, battery);
+
+// Using a method that combines these components
+smartphone.powerOn();
+smartphone.takePhoto();
+smartphone.chargePhone();
+```
+Output : 
+```
+Samsung smartphone is powering on...
+Booting Android version 12
+Taking photo with 108MP resolution
+Charging battery with capacity 5000mAh
+```
