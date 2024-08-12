@@ -330,6 +330,8 @@ Ginger is a Orange cat
 ```
 But if you use inheritance in Construction Function is hard to read, and the logics is need more time to know it. That's why ES6 is made.
 
+You can try in [6.3.1.1-InheritanceES6.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%206%20-%20Object%20Oriented%20Programming/6.3.1.1-InheritanceES6.js) and [6.3.1.2-InheritanceFunction.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%206%20-%20Object%20Oriented%20Programming/6.3.1.2-InheritanceFunction.js)
+
 #### 6.3.2 Encapsulation
 
 Next is Encapsulation, this concept allows developers to hide the internal implementation details of an object and expose only the necessary interface to the user. With encapsulation, an object's attributes and methods can be protected from direct modification from outside the class. 
@@ -367,6 +369,8 @@ After change :  90
 ```
 
 If you access the private properties, you will get the error code.
+
+You can try in [6.3.2-Encapsulation.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%206%20-%20Object%20Oriented%20Programming/6.3.2-Encapsulation.js)
 
 #### 6.3.3 Polymorphism
 
@@ -409,6 +413,8 @@ Output :
 Booting Android version 12
 Android is booting with custom skin: One UI
 ```
+
+You can try in [6.3.3-Polymorphism.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%206%20-%20Object%20Oriented%20Programming/6.3.3-Polymorphism.js)
 
 #### 6.3.4 Object Composition in JavaScript
 
@@ -489,3 +495,5 @@ Booting Android version 12
 Taking photo with 108MP resolution
 Charging battery with capacity 5000mAh
 ```
+
+You can try in [6.3.4-Objectcomposition.js](https://github1s.com/hilmimusyafa/javascript/blob/main/Chapter%206%20-%20Object%20Oriented%20Programming/6.3.4-Objectcomposition.js)
