@@ -1,6 +1,6 @@
 # JavaScript Documentations
 
-![Github Banner](https://hackmd.io/_uploads/Hy_T_hdO0.png)
+![Github Banner](https://github.com/user-attachments/assets/efa993fa-9bfb-48d6-80f1-04e19721f983)
 
 ## Description
 
